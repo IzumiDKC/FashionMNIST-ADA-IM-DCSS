@@ -1,0 +1,11 @@
+﻿method,Pairwise_ARI_mean,Finetune_Time_mean_s
+DCSS Fixed (sigma_init=0.1),0.4750,22.2948
+Ada-IM-DCSS Ours (sigma_init=0.1),0.8689,26.9134
+DCSS Fixed (sigma_init=0.5),0.8496,22.2292
+Ada-IM-DCSS Ours (sigma_init=0.5),0.8689,26.5133
+DCSS Fixed (sigma_init=1.0),0.8561,22.4263
+Ada-IM-DCSS Ours (sigma_init=1.0),0.8679,26.8074
+DCSS Fixed (sigma_init=2.0),0.8622,21.8114
+Ada-IM-DCSS Ours (sigma_init=2.0),0.8667,26.3102
+DCSS Fixed (sigma_init=5.0),0.8196,21.9380
+Ada-IM-DCSS Ours (sigma_init=5.0),0.8681,26.3633

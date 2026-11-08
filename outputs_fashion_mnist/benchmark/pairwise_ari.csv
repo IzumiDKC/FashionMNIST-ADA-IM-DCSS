@@ -1,0 +1,11 @@
+﻿method,Pairwise_ARI_mean,Finetune_Time_mean_s
+AE + K-means,0.8094,0.0000
+DEC (2016),0.8215,21.2303
+IDEC (2017),0.7641,20.6859
+DECRA (2024),0.7522,29.1681
+IDEC + BRB-inspired,0.7533,20.9765
+DCSS (sigma=1),0.8561,22.4263
+DCSS (RMS),0.8339,22.9791
+Ada-DCSS (Ours - EMA Per-Cluster Sigma),0.8505,26.7718
+IM-DCSS (Ours - InfoMax & Entropy Warmup),0.8520,23.1002
+Ada-IM-DCSS (Ours - Full Proposed),0.8679,26.8074

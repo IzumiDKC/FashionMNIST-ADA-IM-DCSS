@@ -1,0 +1,6 @@
+﻿method,n_seeds,ACC_mean,ACC_sd,ACC_formatted,NMI_mean,NMI_sd,NMI_formatted,ARI_mean,ARI_sd,ARI_formatted,Pairwise_ARI_mean,Unsup_Silhouette_mean,Finetune_Time_mean_s
+"Ablation 1: Only Soft-Silhouette (No Rec, No Ent)",3,53.6633,4.9317,53.66 ± 4.93,61.0851,2.6806,61.09 ± 2.68,40.7980,3.8588,40.80 ± 3.86,0.7439,0.9851,23.2216
+Ablation 2: Rec + Soft-Silhouette (No Entropy),3,61.4467,2.1472,61.45 ± 2.15,63.8737,1.7696,63.87 ± 1.77,47.7433,2.3576,47.74 ± 2.36,0.8330,0.6226,23.2063
+Ablation 3: Full DCSS (Static RMS + Eq.20 Entropy),3,60.5333,1.1600,60.53 ± 1.16,63.0356,0.9770,63.04 ± 0.98,46.7936,1.0167,46.79 ± 1.02,0.8339,0.6397,22.9791
+Ablation 4: IM-DCSS (Soft-Silhouette + InfoMax Warmup),3,62.4933,2.5273,62.49 ± 2.53,64.1975,1.8026,64.20 ± 1.80,49.1814,2.4777,49.18 ± 2.48,0.8520,0.6476,23.1002
+Ablation 5: Ada-IM-DCSS (Per-Cluster EMA + InfoMax - Full Ours),3,61.5733,1.4386,61.57 ± 1.44,63.4910,1.0847,63.49 ± 1.08,47.9409,1.2758,47.94 ± 1.28,0.8679,0.6477,26.8074

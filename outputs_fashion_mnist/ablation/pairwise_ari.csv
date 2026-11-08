@@ -1,0 +1,6 @@
+﻿method,Pairwise_ARI_mean,Finetune_Time_mean_s
+"Ablation 1: Only Soft-Silhouette (No Rec, No Ent)",0.7439,23.2216
+Ablation 2: Rec + Soft-Silhouette (No Entropy),0.8330,23.2063
+Ablation 3: Full DCSS (Static RMS + Eq.20 Entropy),0.8339,22.9791
+Ablation 4: IM-DCSS (Soft-Silhouette + InfoMax Warmup),0.8520,23.1002
+Ablation 5: Ada-IM-DCSS (Per-Cluster EMA + InfoMax - Full Ours),0.8679,26.8074
