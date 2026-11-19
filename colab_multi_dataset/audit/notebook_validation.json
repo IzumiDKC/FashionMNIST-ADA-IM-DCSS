@@ -1,0 +1,16 @@
+{
+  "notebook_sha256": "daa3225158a49c8b9dcdbc45f8d11e0aeadff035872b36ab4b29d9fc98cd80ac",
+  "schema_valid": true,
+  "code_cells_compiled": 9,
+  "local_report_mode_executed": true,
+  "fashion_files_unchanged": 445,
+  "substitutions": [
+    "Colab auth/mount replaced with verified local paths",
+    "/content replaced with local audit directory",
+    "writefile writes identical UTF-8/LF bytes explicitly on Windows",
+    "RUN_TRAINING=False"
+  ],
+  "gpu_executed": false,
+  "colab_oauth_executed": false,
+  "new_full_experiments_executed": false
+}

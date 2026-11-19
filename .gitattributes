@@ -10,3 +10,16 @@
 *.npy binary
 *.pt binary
 *.png binary
+*.zip binary
+*.pdf binary
+*.npz binary
+*.parquet binary
+*.json text eol=lf
+
+# Preserve the bytes used by notebook delivery and archived-run checksums.
+*.ipynb -text whitespace=cr-at-eol
+DCSS_FashionMNIST_Full/** -text whitespace=cr-at-eol
+colab_full_fashion_mnist/audit/** -text whitespace=cr-at-eol
+colab_multi_dataset/audit/** -text whitespace=cr-at-eol
+# The third-party snapshot is kept verbatim, including original whitespace.
+colab_full_fashion_mnist/audit/upstream/** -whitespace

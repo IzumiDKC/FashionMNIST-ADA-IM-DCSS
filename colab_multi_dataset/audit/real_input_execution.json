@@ -1,0 +1,77 @@
+{
+  "purpose": "technical_only_not_research_results",
+  "device": "cpu",
+  "datasets": {
+    "emnist": {
+      "full_n": 131600,
+      "shape": [
+        131600,
+        1,
+        28,
+        28
+      ],
+      "forward_backward_finite": true,
+      "clusters": 47
+    },
+    "har": {
+      "full_n": 10299,
+      "shape": [
+        10299,
+        561
+      ],
+      "forward_backward_finite": true,
+      "clusters": 6
+    },
+    "pendigits": {
+      "full_n": 10992,
+      "shape": [
+        10992,
+        16
+      ],
+      "forward_backward_finite": true,
+      "clusters": 10
+    },
+    "waveform": {
+      "full_n": 5000,
+      "shape": [
+        5000,
+        21
+      ],
+      "forward_backward_finite": true,
+      "clusters": 3
+    },
+    "personas": {
+      "sample_n_verified": 100000,
+      "embedded_technical_rows": 520,
+      "shape": [
+        520,
+        384
+      ],
+      "cached_chunks_retained": 1,
+      "resumed_from_first_512_vectors_exact": true,
+      "reopen_exact": true,
+      "forward_backward_finite": true,
+      "embedding": {
+        "spec_hash": "c631b56bcfbfba347fba0346cbe08cc97808ee5f413efabffa0e69257b69bb00",
+        "sha256": "4e2c572d7d9fa1530d61bd0fcff09612dc380abd9ba2cb01eb927283bc4ec2c6",
+        "n": 520,
+        "dimension": 384,
+        "truncated_rows": 100,
+        "original_token_count": 57961,
+        "embedding_spec": {
+          "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+          "column": "persona",
+          "max_length": 128,
+          "pooling": "attention_mask_mean",
+          "l2_normalized": true,
+          "dtype": "float32",
+          "batch_size": 64,
+          "chunk_size": 512,
+          "attention": "eager"
+        },
+        "mixed_environment": false
+      }
+    }
+  }
+}

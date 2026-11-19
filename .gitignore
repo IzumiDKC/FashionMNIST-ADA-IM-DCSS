@@ -23,3 +23,17 @@ Thumbs.db
 .report_work/
 outputs_fmnist_check/
 outputs_smoke_test/
+
+# Full-data campaigns: publish scores/manifests, keep model tensors on Drive.
+/DCSS_FashionMNIST_Full/**/*.pt
+/DCSS_FashionMNIST_Full/**/*.npz
+/DCSS_FashionMNIST_Full/*.zip
+
+# These export bundles can be regenerated from the statistics notebooks.
+/DCSS_Statistics/*.zip
+/DCSS_MultiDataset_Statistics/*.zip
+
+# Local manuscript sources and publisher PDFs are maintained separately.
+/Documents/
+.ipynb_checkpoints/
+.publication_check/

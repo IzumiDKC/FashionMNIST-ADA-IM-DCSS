@@ -1,0 +1,12 @@
+data/
+__pycache__/
+.pytest_cache/
+audit/colab_before_extension.ipynb
+audit/colab_after_extension.ipynb
+audit/technical_runs/
+audit/notebook_execution/
+audit/notebook_report_mode_executed.ipynb
+audit/statistics_colab_readback.ipynb
+audit/statistics_colab_user_run.ipynb
+audit/statistics_failed_diagnostic.ipynb
+audit/drive_catalog.json

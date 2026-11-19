@@ -1,0 +1,12 @@
+.venv/
+data/
+test_runs/
+__pycache__/
+.pytest_cache/
+audit/original_colab.ipynb
+audit/colab_before_portable_update.ipynb
+audit/colab_portable_readback.ipynb
+audit/colab_readback.ipynb
+audit/drive_files.json
+audit/paper_text.txt
+*.tmp

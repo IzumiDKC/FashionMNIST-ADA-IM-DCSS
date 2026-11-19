@@ -1,0 +1,11 @@
+{
+  "colab_url": "https://colab.research.google.com/drive/1im9fG_949mpbZOIxdOp_nQ0M3VfLgenV",
+  "verified_readback_sha256": "3dcc4a788710e6d1b56a4b2a5fde108f223afda8cd3142f98a2637d194439c32",
+  "bytes": 92946,
+  "cells": 17,
+  "code_sha256": "b29c6c15ccc41ac03adea4edca8527f9971c70ab923c291d81c889421bbe5703",
+  "unit_tests_passed": 19,
+  "cpu_integration": "8 completed technical runs, 256 real images, 2 seeds, 4 methods; rerun verified",
+  "gpu_research_runs_performed": false,
+  "original_notebook_backup": "audit/original_colab.ipynb"
+}

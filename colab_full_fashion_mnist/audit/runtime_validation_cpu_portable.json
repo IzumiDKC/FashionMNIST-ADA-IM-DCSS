@@ -1,0 +1,29 @@
+{
+  "type": "technical_only_not_research",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "packages": {
+      "torch": "2.15.0+cpu",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "gdown": "6.5.1",
+      "threadpoolctl": "3.8.0"
+    },
+    "device": "cpu",
+    "cuda": null,
+    "cudnn": null,
+    "gpu": null,
+    "vram_gb": null,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "at": "2026-11-10T03:51:39.216534+00:00",
+  "batch256_gpu_check": false,
+  "optimizer_roundtrip": "cpu -> cpu -> cpu",
+  "passed": true
+}

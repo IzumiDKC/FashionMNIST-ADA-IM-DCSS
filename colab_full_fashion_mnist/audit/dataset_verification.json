@@ -1,0 +1,60 @@
+{
+  "files": {
+    "train-images-idx3-ubyte": {
+      "drive_id": "1XjvEO46beyAhBPorMEaRaFozU1m6raSS",
+      "official_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-images-idx3-ubyte.gz",
+      "official_gz_md5": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+      "raw_sha256": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+      "size": 47040016,
+      "drive_equals_official": true
+    },
+    "train-labels-idx1-ubyte": {
+      "drive_id": "1vMq9NhjOpFW71TxQB-VpAdc5UtykGLvL",
+      "official_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/train-labels-idx1-ubyte.gz",
+      "official_gz_md5": "25c81989df183df01b3e8a0aad5dffbe",
+      "raw_sha256": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9",
+      "size": 60008,
+      "drive_equals_official": true
+    },
+    "t10k-images-idx3-ubyte": {
+      "drive_id": "12klOdWX0FAUq3WB7RkakYRZviZTG1BoI",
+      "official_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-images-idx3-ubyte.gz",
+      "official_gz_md5": "bef4ecab320f06d8554ea6380940ec79",
+      "raw_sha256": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+      "size": 7840016,
+      "drive_equals_official": true
+    },
+    "t10k-labels-idx1-ubyte": {
+      "drive_id": "1yXJ_8hlNKFrVPWclDQuInAvauEErtKGF",
+      "official_url": "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/t10k-labels-idx1-ubyte.gz",
+      "official_gz_md5": "bb300cfdad3c16e7a12a480ee83cd310",
+      "raw_sha256": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34",
+      "size": 10008,
+      "drive_equals_official": true
+    }
+  },
+  "data": {
+    "sha256": {
+      "train-images-idx3-ubyte": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+      "train-labels-idx1-ubyte": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9",
+      "t10k-images-idx3-ubyte": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+      "t10k-labels-idx1-ubyte": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34"
+    },
+    "split": "all70k",
+    "n": 70000,
+    "order": "train_then_test",
+    "normalization": "float32(pixel)/255",
+    "class_counts_audit_only": [
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000
+    ]
+  }
+}

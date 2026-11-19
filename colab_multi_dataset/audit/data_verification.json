@@ -1,0 +1,309 @@
+{
+  "type": "data_integrity_not_experimental_results",
+  "datasets": {
+    "emnist": {
+      "dataset": "emnist",
+      "version": "multi-data-2026-11-11-v1",
+      "n": 131600,
+      "input_dim": 784,
+      "n_clusters": 47,
+      "labeled": true,
+      "design": "transductive_all_inputs; labels_final_evaluation_only",
+      "order": "train_then_test",
+      "normalization": "transpose_image_axes; float32(pixel)/255 per batch",
+      "features_sha256": "5ff0e0929b1c12f386ef481bbef552dd778b6b844f01dbd499363ce5093c5b48",
+      "labels_sha256": "076370dc790762c8f0e86420159cbbd2843688e777f58a9ce53a4d176d68b9af",
+      "source_sha256": {
+        "emnist-balanced-mapping.txt": "956dc507bf69e9f31f4e3e876d22ec66124aa229b5d0bd65ab8956a8044d3ede",
+        "emnist-balanced-test-images-idx3-ubyte.gz": "117fc12b015e37ea98bfb2cbba3f77c3782c056cdbd219b87abfc8661d7135db",
+        "emnist-balanced-test-labels-idx1-ubyte.gz": "a67cac948379b67270b9a4d0a01c8ec661598accf2f2b1964340b7c83cb175cd",
+        "emnist-balanced-train-images-idx3-ubyte.gz": "74295e75e4e9fa2c102147460ee7eb763653d5132d883a84fb88932bfb8d2db4",
+        "emnist-balanced-train-labels-idx1-ubyte.gz": "b46d41e5156a0a8aaaa4d18979fdd1588850fa8571018acffd5d93b325a7d6ed"
+      },
+      "class_counts_audit_only": [
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800,
+        2800
+      ],
+      "original_split_sizes": [
+        112800,
+        18800
+      ],
+      "variant": "EMNIST Balanced"
+    },
+    "har": {
+      "dataset": "har",
+      "version": "multi-data-2026-11-11-v1",
+      "n": 10299,
+      "input_dim": 561,
+      "n_clusters": 6,
+      "labeled": true,
+      "design": "transductive_all_inputs; labels_final_evaluation_only",
+      "order": "train_then_test",
+      "normalization": "fixed (precomputed_feature+1)/2; subject IDs excluded",
+      "features_sha256": "6dd45d44e5fc535fe55919b028a1dc15c4f372fc0adf576edf3981d39363fa92",
+      "labels_sha256": "cfa67151eba64b072d7a80cfc9d760696d544548b0513389c93683f5d618a66a",
+      "source_sha256": {
+        "activity_labels.txt": "f6e6b292704438261f0283b2a82659ab0661447dc16520938bdf379ed1bf8de0",
+        "features.txt": "b384889885b1c8680ecf250e0e605b4c79536cdf09ce9f2fa7225a3c6773b5c7",
+        "README.txt": "eaee53f45825f349681a1a1b92a997a0082648f9b5bf93ddb3290caeede4b3a8",
+        "subject_test.txt": "63b8c577f4a85431c06bd87f6384608c90a9f72f05c7956dd21255dc63515c07",
+        "subject_train.txt": "66e1e2fbe9b396fa5155f531dc3348c803f503be663e2318772d49947db9153a",
+        "X_test.txt": "99035209add50d17650e847d8a4658d784a5707466ebb7c2deb97c28e5250a78",
+        "X_train.txt": "9c1246099c8d5463779eec5a3845cc3898df9d8c715441ab2a1232d4421fc42f",
+        "y_test.txt": "2a94cb53ca46b956c1b2aebd4a09a72badd8a8e9ea9cdfe9f31b3306a08666bb",
+        "y_train.txt": "415b3357e2e2d5e70a45c781947c6bdd80e0410a579d862eedcd6bbce3c694ef"
+      },
+      "class_counts_audit_only": [
+        1722,
+        1544,
+        1406,
+        1777,
+        1906,
+        1944
+      ],
+      "original_split_sizes": [
+        7352,
+        2947
+      ],
+      "original_subjects_disjoint": true,
+      "subject_count": 30
+    },
+    "pendigits": {
+      "dataset": "pendigits",
+      "version": "multi-data-2026-11-11-v1",
+      "n": 10992,
+      "input_dim": 16,
+      "n_clusters": 10,
+      "labeled": true,
+      "design": "transductive_all_inputs; labels_final_evaluation_only",
+      "order": "train_then_test",
+      "normalization": "fixed coordinate/100",
+      "features_sha256": "b9d65e3f7348caaf3806cf3a406abaae4daa1bf46a64874763e14f1344280ff8",
+      "labels_sha256": "9ffdf706abd2137b0502831b1be49709df83478e79d60691c89d528abe510da0",
+      "source_sha256": {
+        "pendigits.names": "a90a76e1edac6f1b50f4b44db80587d7b92601fcbb153c83c2c3210c21b34f60",
+        "pendigits.tes": "8bd03229c5c5291fefe43e45465dd948d2645bf23328b9d993e0b777666b2015",
+        "pendigits.tra": "e2b9eb9f0d0467e2b64a4816a3420edf2b8043447576f4b84337aba44a9f97d3"
+      },
+      "class_counts_audit_only": [
+        1143,
+        1143,
+        1144,
+        1055,
+        1144,
+        1055,
+        1056,
+        1142,
+        1055,
+        1055
+      ],
+      "original_split_sizes": [
+        7494,
+        3498
+      ]
+    },
+    "waveform": {
+      "dataset": "waveform",
+      "version": "multi-data-2026-11-11-v1",
+      "n": 5000,
+      "input_dim": 21,
+      "n_clusters": 3,
+      "labeled": true,
+      "design": "transductive_all_inputs; labels_final_evaluation_only",
+      "order": "source_file_order",
+      "normalization": "per_feature_minmax fitted to all unlabeled transductive inputs",
+      "features_sha256": "be77dd53e95000d9ef8b9ba05a63433aca1e6a13ed78e5cd196a4668c81c24a6",
+      "labels_sha256": "0e7a6102b67ec05ee338a5b141bd7ef443b8acfc6f38be67a3223bfa52b539f8",
+      "source_sha256": {
+        "waveform.data.Z": "0b289b4b8e54648aae5f386e80e532353b5dcef69e524a5d4e4a50edd872a022",
+        "waveform.names": "58d9a1aef2d5089978ef146cb84a8faedd969a8b7faad151059df5c5ed042178"
+      },
+      "class_counts_audit_only": [
+        1657,
+        1647,
+        1696
+      ],
+      "min": [
+        -3.3399999141693115,
+        -3.25,
+        -4.199999809265137,
+        -3.8399999141693115,
+        -3.4800000190734863,
+        -2.759999990463257,
+        -3.319999933242798,
+        -3.5199999809265137,
+        -3.380000114440918,
+        -1.7899999618530273,
+        -1.4800000190734863,
+        -1.690000057220459,
+        -2.609999895095825,
+        -2.819999933242798,
+        -2.559999942779541,
+        -2.990000009536743,
+        -3.559999942779541,
+        -4.079999923706055,
+        -3.5,
+        -3.569999933242798,
+        -3.880000114440918
+      ],
+      "range": [
+        7.279999732971191,
+        7.130000114440918,
+        8.920000076293945,
+        9.59000015258789,
+        9.979999542236328,
+        10.380000114440918,
+        12.079999923706055,
+        11.360000610351562,
+        11.280000686645508,
+        9.420000076293945,
+        10.540000915527344,
+        9.09000015258789,
+        10.109999656677246,
+        10.569999694824219,
+        11.280000686645508,
+        10.850000381469727,
+        10.299999237060547,
+        10.279999732971191,
+        8.780000686645508,
+        8.220000267028809,
+        7.890000343322754
+      ],
+      "variant": "21 features; no extra 19 noise features"
+    },
+    "personas": {
+      "version": "multi-data-2026-11-11-v1",
+      "n": 100000,
+      "seed": 20261111,
+      "global_indices_sha256": "f84b0414af4076f5b55ea236f7b6d72288849dfac783f16cf1f371d7c92ad254",
+      "shards": [
+        {
+          "name": "train-00000-of-00011.parquet",
+          "sha256": "7ba73013539e2edb61dc748086edfe52e0107adf124620f17364c5ec0b244ae4",
+          "rows": 90910
+        },
+        {
+          "name": "train-00001-of-00011.parquet",
+          "sha256": "2f51118c6e5e52b5d5898ec94e806bbe4d44bd850d97bb629a5b50cdf1f15f30",
+          "rows": 90909
+        },
+        {
+          "name": "train-00002-of-00011.parquet",
+          "sha256": "269fd8e758df6a491d0bdf29970ac0eb0d3bd3cce1f9dd1738c5e6c07032aae0",
+          "rows": 90909
+        },
+        {
+          "name": "train-00003-of-00011.parquet",
+          "sha256": "e7166520935d4edb272a2b06e0396bf3ef3a30b35fb8e424a816aa81163c33bd",
+          "rows": 90909
+        },
+        {
+          "name": "train-00004-of-00011.parquet",
+          "sha256": "ee53b6b8958df47dd0629ccb1e381dc12fee11745ce89e1c319c7fa49ed145d1",
+          "rows": 90909
+        },
+        {
+          "name": "train-00005-of-00011.parquet",
+          "sha256": "d8b6086c07efe92598c999760c13d57a549c62bed524eb2ddd4a5e372f390008",
+          "rows": 90909
+        },
+        {
+          "name": "train-00006-of-00011.parquet",
+          "sha256": "514c196bdd37de085e06cfbcf1e457538ccead69a0cb628a79a3f46839e4b0bb",
+          "rows": 90909
+        },
+        {
+          "name": "train-00007-of-00011.parquet",
+          "sha256": "623097c1d124a81bebdb8a87d4767ae64653c9fc98163a9103295d12dceb41f0",
+          "rows": 90909
+        },
+        {
+          "name": "train-00008-of-00011.parquet",
+          "sha256": "3545a04105ea216f2a817fd3ca6e42d2f7aff698214ead1831672887fff00e8f",
+          "rows": 90909
+        },
+        {
+          "name": "train-00009-of-00011.parquet",
+          "sha256": "9ced19f4cd3f52bfa89e797555366196ecd3b0693579ae2a5a45c24b5c88718f",
+          "rows": 90909
+        },
+        {
+          "name": "train-00010-of-00011.parquet",
+          "sha256": "5ac13b02df277193f17b27a87585e051409cef75bac711962b86734332e7d995",
+          "rows": 90909
+        }
+      ],
+      "identifiers_sha256": "5bb60fc9028c703d3de6c29507258ee075bba29f5a3e86a9b54c91f907bd308f",
+      "texts_sha256": "f25a3fd6eed900f3a763f3541eb9d3615ad709fb70a024288a7770df2792149b",
+      "empty_texts": 0,
+      "schema": [
+        "uuid",
+        "professional_persona",
+        "sports_persona",
+        "arts_persona",
+        "travel_persona",
+        "culinary_persona",
+        "persona",
+        "cultural_background",
+        "skills_and_expertise",
+        "skills_and_expertise_list",
+        "hobbies_and_interests",
+        "hobbies_and_interests_list",
+        "career_goals_and_ambitions",
+        "sex",
+        "age",
+        "marital_status",
+        "education_level",
+        "occupation",
+        "zone",
+        "region",
+        "country"
+      ]
+    }
+  }
+}

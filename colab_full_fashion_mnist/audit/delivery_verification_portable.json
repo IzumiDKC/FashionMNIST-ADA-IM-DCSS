@@ -1,0 +1,16 @@
+{
+  "version": "2026-11-10-portable-v2",
+  "colab_url": "https://colab.research.google.com/drive/1im9fG_949mpbZOIxdOp_nQ0M3VfLgenV",
+  "readback_sha256": "75db0d2dbf1f4fd397950d01646e9d307264555e8b1219a3fd8deb9cfbe436a9",
+  "code_sha256": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550",
+  "bytes": 144985,
+  "cells": 17,
+  "tests_passed": 33,
+  "tests_skipped_no_cuda": 1,
+  "cpu_integration_8_runs": true,
+  "v1_checkpoint_import_tested": true,
+  "user_actual_t4_checkpoints_fetched": false,
+  "a100_gpu_execution_performed_by_agent": false,
+  "runtime_self_test_in_notebook": "GPU batch256 and optimizer current-device to CPU to current-device",
+  "backup": "audit/colab_before_portable_update.ipynb"
+}

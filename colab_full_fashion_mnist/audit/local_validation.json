@@ -1,0 +1,35 @@
+{
+  "type": "technical_validation_not_research_evidence",
+  "device": "cpu",
+  "real_images": 256,
+  "seeds": 2,
+  "methods": 4,
+  "pretrain_epochs": 2,
+  "cluster_epochs": 2,
+  "all_8_runs_finished": true,
+  "rerun_preserves_results": true,
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.22621-SP0",
+    "packages": {
+      "torch": "2.15.0+cpu",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "gdown": "6.5.1",
+      "threadpoolctl": "3.8.0"
+    },
+    "device": "cpu",
+    "cuda": null,
+    "cudnn": null,
+    "gpu": null,
+    "vram_gb": null,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "experiment_sha256": "b29c6c15ccc41ac03adea4edca8527f9971c70ab923c291d81c889421bbe5703",
+  "data_equals_official": true
+}

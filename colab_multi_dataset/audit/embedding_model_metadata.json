@@ -1,0 +1,380 @@
+{
+  "_id": "621ffdc136468d709f1802ec",
+  "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "private": false,
+  "pipeline_tag": "sentence-similarity",
+  "library_name": "sentence-transformers",
+  "tags": [
+    "sentence-transformers",
+    "pytorch",
+    "tf",
+    "onnx",
+    "safetensors",
+    "openvino",
+    "bert",
+    "feature-extraction",
+    "sentence-similarity",
+    "transformers",
+    "multilingual",
+    "ar",
+    "bg",
+    "ca",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "en",
+    "es",
+    "et",
+    "fa",
+    "fi",
+    "fr",
+    "gl",
+    "gu",
+    "he",
+    "hi",
+    "hr",
+    "hu",
+    "hy",
+    "id",
+    "it",
+    "ja",
+    "ka",
+    "ko",
+    "ku",
+    "lt",
+    "lv",
+    "mk",
+    "mn",
+    "mr",
+    "ms",
+    "my",
+    "nb",
+    "nl",
+    "pl",
+    "pt",
+    "ro",
+    "ru",
+    "sk",
+    "sl",
+    "sq",
+    "sr",
+    "sv",
+    "th",
+    "tr",
+    "uk",
+    "ur",
+    "vi",
+    "arxiv:1908.10084",
+    "license:apache-2.0",
+    "text-embeddings-inference",
+    "endpoints_compatible",
+    "deploy:sagemaker",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 26712173,
+  "likes": 1502,
+  "modelId": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "author": "sentence-transformers",
+  "sha": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "lastModified": "2026-01-28T10:02:26.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "<mask>",
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "BertModel"
+    ],
+    "model_type": "bert",
+    "tokenizer_config": {
+      "unk_token": "<unk>",
+      "sep_token": "</s>",
+      "pad_token": "<pad>",
+      "cls_token": "<s>",
+      "mask_token": {
+        "content": "<mask>",
+        "single_word": false,
+        "lstrip": true,
+        "rstrip": false,
+        "normalized": true,
+        "__type": "AddedToken"
+      },
+      "bos_token": "<s>",
+      "eos_token": "</s>"
+    }
+  },
+  "cardData": {
+    "language": [
+      "multilingual",
+      "ar",
+      "bg",
+      "ca",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fa",
+      "fi",
+      "fr",
+      "gl",
+      "gu",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "hy",
+      "id",
+      "it",
+      "ja",
+      "ka",
+      "ko",
+      "ku",
+      "lt",
+      "lv",
+      "mk",
+      "mn",
+      "mr",
+      "ms",
+      "my",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sq",
+      "sr",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "ur",
+      "vi"
+    ],
+    "license": "apache-2.0",
+    "library_name": "sentence-transformers",
+    "tags": [
+      "sentence-transformers",
+      "feature-extraction",
+      "sentence-similarity",
+      "transformers"
+    ],
+    "language_bcp47": [
+      "fr-ca",
+      "pt-br",
+      "zh-cn",
+      "zh-tw"
+    ],
+    "pipeline_tag": "sentence-similarity"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel",
+    "pipeline_tag": "feature-extraction",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "1_Pooling/config.json"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "config_sentence_transformers.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "modules.json"
+    },
+    {
+      "rfilename": "onnx/model.onnx"
+    },
+    {
+      "rfilename": "onnx/model_O1.onnx"
+    },
+    {
+      "rfilename": "onnx/model_O2.onnx"
+    },
+    {
+      "rfilename": "onnx/model_O3.onnx"
+    },
+    {
+      "rfilename": "onnx/model_O4.onnx"
+    },
+    {
+      "rfilename": "onnx/model_qint8_arm64.onnx"
+    },
+    {
+      "rfilename": "onnx/model_qint8_avx512.onnx"
+    },
+    {
+      "rfilename": "onnx/model_qint8_avx512_vnni.onnx"
+    },
+    {
+      "rfilename": "onnx/model_quint8_avx2.onnx"
+    },
+    {
+      "rfilename": "openvino/openvino_model.bin"
+    },
+    {
+      "rfilename": "openvino/openvino_model.xml"
+    },
+    {
+      "rfilename": "openvino/openvino_model_qint8_quantized.bin"
+    },
+    {
+      "rfilename": "openvino/openvino_model_qint8_quantized.xml"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "sentence_bert_config.json"
+    },
+    {
+      "rfilename": "sentencepiece.bpe.model"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tf_model.h5"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "unigram.json"
+    }
+  ],
+  "spaces": [
+    "uv-scripts/run-on-jobs",
+    "MTEB-BR/leaderboard",
+    "hakari-bench/leaderboard",
+    "emanforhelp/model-pulse",
+    "VAGOsolutions/german-legal-embedding-leaderboard",
+    "embedl/hfviewer",
+    "yenniejun/tokenizers-languages",
+    "derek-thomas/arabic-RAG",
+    "Waflon/mistral-PDF-chat",
+    "hahahafofo/ChatGLM-Chinese-Summary",
+    "aseifert/ExplaiNER",
+    "firefighter/TransDis-CreativityAutoAssessment",
+    "somosnlp-hackathon-2023/learning-assistance",
+    "5w4n/burmese-tokenizers",
+    "sfha/teacher-reviews-rag-advisor",
+    "jatainkumar/ankur_the_agribot",
+    "emmetmayer/Large-Context-Question-and-Answering",
+    "hahahafofo/ChatPDF",
+    "iscc/iscc-sct",
+    "OpenEvals/tokenizers-languages",
+    "Peersik/poi_model",
+    "politweet-sh/politweet",
+    "syx948/ChatPDF",
+    "eminAydin/RAG_CHATBOT",
+    "xefr762/Movie_finder",
+    "vikramronavrsc/BLOCHAIN_RAG_FOR_LASTDAY_EXAM_PREP",
+    "Nekoko/NekoAI-Lab",
+    "ipepe/nomic-embeddings",
+    "talhasideline/hockey-mind-db",
+    "vikramvasudevan/youtube-channel-surfer-ai",
+    "Stepman/mixing-forum-analyzer",
+    "akra35567/akira",
+    "MaksPun/rag-ukraine-history",
+    "jnalv/embedding-fingerprints",
+    "rvc-001/ssipmt-chatbot",
+    "amryassin/embedding-bench",
+    "Becher-zribi/prompt-forge-rag",
+    "panpho273/cookiecloudyday-demi",
+    "Naphatbo/prixxy-cafe",
+    "tanmoy96/smart-doc-qa",
+    "samuelashu/multilingual-healthcare-rag",
+    "Endre/SemanticSearch-HU",
+    "twinpiks/tst",
+    "sinksmell/ChatPDF",
+    "Jerry0203/sentence_embedding",
+    "azuboguko/sentence-transformers-paraphrase-multilingual-MiniLM-L12-v2",
+    "NechuBM/preguntaDOC",
+    "abidlabs/mteb-leaderboard",
+    "aymanemalih/qdrant-flask",
+    "aymanemalih/sentence-transformers-paraphrase-multilingual-MiniLM-L12-v2",
+    "Waflon/FAQ_SSI_CHILE",
+    "Waflon/mixtral_chatbot",
+    "nnngoc/chatbot_bk1",
+    "ali121300/mistral-PDF-chat_B5",
+    "forestav/jobsai",
+    "isl-research/books-discovery",
+    "Icarus011/inttrn",
+    "FajarHidaa/WeatherData",
+    "alirayanfilms/Pak-Legal-Assist",
+    "cdxxi/find_my_book_pr",
+    "Sergei-Ch/find_my_movie",
+    "sunnyball23/Semantic_Hunter",
+    "theshresthshukla/rjchatbot",
+    "Sidoineko/cv-chatbot",
+    "fisherman611/vietnamese-legal-chatbot",
+    "Khdidij/etsy-review-intelligence",
+    "als106/RagNa",
+    "heliusdev/bnsinfoapi",
+    "Hdelmonte/Agente-editorial-novela",
+    "hy7haseeb/UrduRAGChatBot",
+    "vikramvasudevan/sanatan_ai",
+    "Bedarev/bedarev-clinic-bot",
+    "Paporn/copa-kku-faq",
+    "Sukmadi/test-generator",
+    "allbibek/semanticsphrase",
+    "hajimammad/mahoon-legal-ai",
+    "hajimammad/demo",
+    "cjian2025/8KindsRAG",
+    "camelfilm/palisade",
+    "khazarai/Agentic-ATS",
+    "trangluc/Chatbot_topcv",
+    "Dama03/medilang-tech",
+    "yehonatanmabari/plnkton",
+    "guanqiantong/edu_ai",
+    "ADMEICD/ChatBot",
+    "galihboy/semantic-embedding-api",
+    "Sirin2412/VietNomNom-AI",
+    "Hamdy005/raij-ai",
+    "ninooo96/SemanticBookSearch",
+    "selcuksey/rag-with-pdf",
+    "sarpbilgic/emu-rag",
+    "bshk57/ASKSASTRA",
+    "Vidhiyasb0812/Ponniyin-Selvan-Chatbot",
+    "kathagcam/cr-electoral-2026",
+    "iamDipanshuK04/Multilingual_Document_Intelligence",
+    "FauzanAriyatmoko/LLM-ChatBot-Document",
+    "siddhm11/prompt-engine",
+    "Aiden3630/argus-api",
+    "sreejang/Voice_and_pdf_transcribe",
+    "sitayeb/sentiment-rag-chatbot"
+  ],
+  "createdAt": "2022-03-02T23:29:05.000Z",
+  "safetensors": {
+    "parameters": {
+      "I64": 512,
+      "F32": 117653760
+    },
+    "total": 117654272
+  },
+  "inference": "warm",
+  "usedStorage": 6650862358
+}
