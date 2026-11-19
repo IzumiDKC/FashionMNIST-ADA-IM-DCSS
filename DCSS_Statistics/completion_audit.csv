@@ -1,0 +1,4 @@
+﻿profile,run_folder,n_images,expected_runs,completed_runs,expected_seeds,complete,missing_pairs,pretrain_epochs,cluster_epochs,backbone
+paper70k,paper70k_2cd93c725947,70000,40,40,10,True,[],100,100,author_conv_bn
+legacy10k,legacy10k_d117c3c1e0e1,10000,9,9,3,True,[],80,40,legacy_conv
+legacy70k,legacy70k_fd8aa4f9c1b7,70000,9,9,3,True,[],80,40,legacy_conv

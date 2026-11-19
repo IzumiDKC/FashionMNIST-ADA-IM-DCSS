@@ -1,0 +1,116 @@
+[
+  {
+    "comparison": "ada_im - dcss_rms",
+    "metric": "ARI",
+    "paired_seeds": [
+      0,
+      1,
+      2
+    ],
+    "complete": true,
+    "planned_primary": false,
+    "confirmatory": false,
+    "campaign_mixed_environment": false,
+    "n": 3,
+    "mean_delta": 0.011838613981398552,
+    "sd": 0.004030779152543667,
+    "ci95_low": 0.0018256034809518793,
+    "ci95_high": 0.021851624481845223,
+    "sign_flip_p_two_sided": 0.25
+  },
+  {
+    "comparison": "ada_im - dcss_rms",
+    "metric": "NMI",
+    "paired_seeds": [
+      0,
+      1,
+      2
+    ],
+    "complete": true,
+    "planned_primary": false,
+    "confirmatory": false,
+    "campaign_mixed_environment": false,
+    "n": 3,
+    "mean_delta": -0.001556735463783987,
+    "sd": 0.003277828116973496,
+    "ci95_low": -0.009699311901692514,
+    "ci95_high": 0.0065858409741245405,
+    "sign_flip_p_two_sided": 0.75
+  },
+  {
+    "comparison": "ada_im - dcss_rms",
+    "metric": "ACC",
+    "paired_seeds": [
+      0,
+      1,
+      2
+    ],
+    "complete": true,
+    "planned_primary": false,
+    "confirmatory": false,
+    "campaign_mixed_environment": false,
+    "n": 3,
+    "mean_delta": 0.021419047619047633,
+    "sd": 0.02052287093202404,
+    "ci95_low": -0.02956259001594615,
+    "ci95_high": 0.07240068525404142,
+    "sign_flip_p_two_sided": 0.25
+  },
+  {
+    "comparison": "ada_im - im_rms",
+    "metric": "ARI",
+    "paired_seeds": [
+      0,
+      1,
+      2
+    ],
+    "complete": true,
+    "planned_primary": false,
+    "confirmatory": false,
+    "campaign_mixed_environment": false,
+    "n": 3,
+    "mean_delta": -0.000512437166556301,
+    "sd": 0.0010171099127048856,
+    "ci95_low": -0.0030390782576702824,
+    "ci95_high": 0.0020142039245576804,
+    "sign_flip_p_two_sided": 0.5
+  },
+  {
+    "comparison": "ada_im - im_rms",
+    "metric": "NMI",
+    "paired_seeds": [
+      0,
+      1,
+      2
+    ],
+    "complete": true,
+    "planned_primary": false,
+    "confirmatory": false,
+    "campaign_mixed_environment": false,
+    "n": 3,
+    "mean_delta": 0.0009002884590824101,
+    "sd": 0.0017725598255434946,
+    "ci95_low": -0.003502994249829204,
+    "ci95_high": 0.005303571167994024,
+    "sign_flip_p_two_sided": 0.75
+  },
+  {
+    "comparison": "ada_im - im_rms",
+    "metric": "ACC",
+    "paired_seeds": [
+      0,
+      1,
+      2
+    ],
+    "complete": true,
+    "planned_primary": false,
+    "confirmatory": false,
+    "campaign_mixed_environment": false,
+    "n": 3,
+    "mean_delta": 0.00011428571428577043,
+    "sd": 0.001798014778264396,
+    "ci95_low": -0.0043522306026298726,
+    "ci95_high": 0.004580802031201414,
+    "sign_flip_p_two_sided": 0.75
+  }
+]

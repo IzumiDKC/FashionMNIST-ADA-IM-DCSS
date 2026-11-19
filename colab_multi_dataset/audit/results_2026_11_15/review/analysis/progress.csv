@@ -1,0 +1,6 @@
+dataset,completed,expected,complete,missing,campaign_mixed_environment
+emnist,50,50,True,[],False
+har,50,50,True,[],True
+pendigits,50,50,True,[],False
+waveform,50,50,True,[],False
+personas,50,50,True,[],False

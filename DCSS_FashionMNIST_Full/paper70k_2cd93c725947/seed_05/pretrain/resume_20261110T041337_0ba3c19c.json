@@ -1,0 +1,31 @@
+{
+  "session_id": "20261110T041337_0ba3c19c",
+  "at": "2026-11-10T04:13:46.940643+00:00",
+  "epoch": 100,
+  "next_batch": 0,
+  "rng": "restored_cpu_and_cuda0_rng",
+  "previous_environment": null,
+  "current_environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "vram_gb": 39.4935302734375,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "previous_slot_recovered": false
+}

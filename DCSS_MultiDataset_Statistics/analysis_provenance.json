@@ -1,0 +1,14 @@
+{
+  "source": "F:\\ThacSi\\Data Mining\\final\\colab_multi_dataset\\audit\\results_2026_11_15\\review",
+  "snapshot_date": "2026-11-15",
+  "validation": {
+    "records": 300,
+    "new_results": 250,
+    "history_phases": 250,
+    "epoch_rows": 25000,
+    "verification": "JSON và lịch sử; không tính lại dự đoán từ model/checkpoint"
+  },
+  "units": "raw fractions in CSV/JSON; SD uses ddof=1",
+  "limitation": "Reads stored scores/histories; does not recompute all metrics from predictions.npz",
+  "stability_source": "stored partition_stability.json; descriptive dependent seed pairs"
+}

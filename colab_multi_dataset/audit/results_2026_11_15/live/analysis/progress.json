@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "emnist",
+    "completed": 50,
+    "expected": 50,
+    "complete": true,
+    "missing": [],
+    "campaign_mixed_environment": false
+  },
+  {
+    "dataset": "har",
+    "completed": 50,
+    "expected": 50,
+    "complete": true,
+    "missing": [],
+    "campaign_mixed_environment": true
+  },
+  {
+    "dataset": "pendigits",
+    "completed": 50,
+    "expected": 50,
+    "complete": true,
+    "missing": [],
+    "campaign_mixed_environment": false
+  },
+  {
+    "dataset": "waveform",
+    "completed": 50,
+    "expected": 50,
+    "complete": true,
+    "missing": [],
+    "campaign_mixed_environment": false
+  },
+  {
+    "dataset": "personas",
+    "completed": 50,
+    "expected": 50,
+    "complete": true,
+    "missing": [],
+    "campaign_mixed_environment": false
+  }
+]

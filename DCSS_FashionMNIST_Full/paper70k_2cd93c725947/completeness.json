@@ -1,0 +1,9 @@
+{
+  "completed": 40,
+  "expected": 40,
+  "complete": true,
+  "selection": "fixed_final_epoch_all_seeds_including_collapse",
+  "units": "fractions_not_percent",
+  "campaign_mixed_environment": true,
+  "interpretation": "Hardware/software changed: results retained, timings confounded; inspect execution traces before thesis claims."
+}

@@ -1,0 +1,218 @@
+{
+  "schema": 2,
+  "version": "full-fmnist-2026-11-10-portable-v2",
+  "identity": "fd8aa4f9c1b740473d0c6938b631295b58a74c29decc240298d5bef81203333d",
+  "scientific_spec": {
+    "config": {
+      "backbone": "legacy_conv",
+      "batch_size": 256,
+      "cluster_epochs": 40,
+      "cluster_lr": 0.0005,
+      "grad_clip": 5.0,
+      "kmeans_n_init": 100,
+      "latent_dim": 10,
+      "methods": [
+        "dcss_rms",
+        "im_rms",
+        "ada_im"
+      ],
+      "n_clusters": 10,
+      "pretrain_epochs": 80,
+      "pretrain_lr": 0.001,
+      "pretrain_weight_decay": 1e-05,
+      "primary_metric": "ARI",
+      "profile": "legacy70k",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "split": "all70k"
+    },
+    "data": {
+      "class_counts_audit_only": [
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000
+      ],
+      "n": 70000,
+      "normalization": "float32(pixel)/255",
+      "order": "train_then_test",
+      "sha256": {
+        "t10k-images-idx3-ubyte": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+        "t10k-labels-idx1-ubyte": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34",
+        "train-images-idx3-ubyte": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+        "train-labels-idx1-ubyte": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9"
+      },
+      "split": "all70k"
+    },
+    "mathematical_code_sha256": "b22f491b59a5303e605423f90ce38f47d441af5733cb2b36d493fbf31e9733da",
+    "methods": [
+      {
+        "balance": 0.0,
+        "ema": 0.15,
+        "ent": 0.01,
+        "entropy_base": "e",
+        "name": "dcss_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.01,
+        "temperature": 0.05,
+        "warmup": 0.0
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "im_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "ada_im",
+        "objective": "paper_normalized",
+        "rescue": true,
+        "sigma": "adaptive",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      }
+    ],
+    "scientific_version": "dcss-equations-ada-2026-11-09",
+    "training_semantics": "Adam(.9,.999),fp32,noAMP,noTF32,deterministic,epoch_batches_v1,no_label_selection"
+  },
+  "config": {
+    "profile": "legacy70k",
+    "split": "all70k",
+    "backbone": "legacy_conv",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "methods": [
+      "dcss_rms",
+      "im_rms",
+      "ada_im"
+    ],
+    "pretrain_epochs": 80,
+    "cluster_epochs": 40,
+    "batch_size": 256,
+    "latent_dim": 10,
+    "n_clusters": 10,
+    "pretrain_lr": 0.001,
+    "cluster_lr": 0.0005,
+    "pretrain_weight_decay": 1e-05,
+    "kmeans_n_init": 100,
+    "grad_clip": 5.0,
+    "require_cuda": true,
+    "primary_metric": "ARI",
+    "cpu_threads": 2
+  },
+  "methods": [
+    {
+      "balance": 0.0,
+      "ema": 0.15,
+      "ent": 0.01,
+      "entropy_base": "e",
+      "name": "dcss_rms",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "rms_trainable",
+      "sil": 0.01,
+      "temperature": 0.05,
+      "warmup": 0.0
+    },
+    {
+      "balance": 0.004,
+      "ema": 0.15,
+      "ent": 0.0025,
+      "entropy_base": "e",
+      "name": "im_rms",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "rms_trainable",
+      "sil": 0.012,
+      "temperature": 0.05,
+      "warmup": 0.7
+    },
+    {
+      "balance": 0.004,
+      "ema": 0.15,
+      "ent": 0.0025,
+      "entropy_base": "e",
+      "name": "ada_im",
+      "objective": "paper_normalized",
+      "rescue": true,
+      "sigma": "adaptive",
+      "sil": 0.012,
+      "temperature": 0.05,
+      "warmup": 0.7
+    }
+  ],
+  "data": {
+    "sha256": {
+      "train-images-idx3-ubyte": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+      "train-labels-idx1-ubyte": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9",
+      "t10k-images-idx3-ubyte": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+      "t10k-labels-idx1-ubyte": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34"
+    },
+    "split": "all70k",
+    "n": 70000,
+    "order": "train_then_test",
+    "normalization": "float32(pixel)/255",
+    "class_counts_audit_only": [
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000,
+      7000
+    ]
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "vram_gb": 39.4935302734375,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "code_sha256": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550",
+  "upstream_commit": "fa3d84c0f3e7c682729cd5ba6f856bb3ef532637"
+}

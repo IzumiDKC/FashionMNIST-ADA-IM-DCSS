@@ -1,0 +1,33 @@
+{
+  "identity": "2cd93c725947ac809fee8f86d1fcd06fd39491e19087043a780398cb3788f307:4:ada_im",
+  "seed": 4,
+  "method": "ada_im",
+  "profile": "paper70k",
+  "n": 70000,
+  "epochs": 100,
+  "status": "complete",
+  "ACC": 0.5134714285714286,
+  "NMI": 0.5939382655094088,
+  "ARI": 0.40721748048727824,
+  "active_clusters": 10,
+  "max_cluster_share": 0.18551428571428571,
+  "assignment_entropy": 0.007950125262141228,
+  "cluster_counts": [
+    7150,
+    5814,
+    12986,
+    9349,
+    11240,
+    3589,
+    4557,
+    3274,
+    5696,
+    6345
+  ],
+  "collapsed": false,
+  "sampled_hard_silhouette": 0.8592137098312378,
+  "finetune_seconds": 636.6759557730002,
+  "peak_gpu_gb": 0.11889076232910156,
+  "guard_count": 0,
+  "rescue_count": 0
+}

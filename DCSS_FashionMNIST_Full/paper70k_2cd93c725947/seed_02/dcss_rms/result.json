@@ -1,0 +1,33 @@
+{
+  "identity": "2cd93c725947ac809fee8f86d1fcd06fd39491e19087043a780398cb3788f307:2:dcss_rms",
+  "seed": 2,
+  "method": "dcss_rms",
+  "profile": "paper70k",
+  "n": 70000,
+  "epochs": 100,
+  "status": "complete",
+  "ACC": 0.5697285714285715,
+  "NMI": 0.6497250496286345,
+  "ARI": 0.44738567423976616,
+  "active_clusters": 10,
+  "max_cluster_share": 0.28212857142857145,
+  "assignment_entropy": 0.0005447098519653082,
+  "cluster_counts": [
+    2918,
+    6604,
+    19749,
+    9547,
+    7267,
+    1,
+    6908,
+    4619,
+    3494,
+    8893
+  ],
+  "collapsed": false,
+  "sampled_hard_silhouette": 0.8733800649642944,
+  "finetune_seconds": 611.5411800020033,
+  "peak_gpu_gb": 0.11890268325805664,
+  "guard_count": 0,
+  "rescue_count": 0
+}

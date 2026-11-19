@@ -1,0 +1,120 @@
+{
+  "identity": "d089b9624f83017098c548c68989f48548976a73f5d7350d3931afc59851ca95:5:dcss_paper",
+  "seed": 5,
+  "method": "dcss_paper",
+  "profile": "waveform",
+  "n": 5000,
+  "status": "complete",
+  "silhouette_common": 0.10118977725505829,
+  "DB_common": 1.653868948872544,
+  "CH_common": 285.5207824707031,
+  "ACC": 0.4626,
+  "NMI": 0.15154875549739732,
+  "ARI": 0.07013037581529812,
+  "hard_active_clusters": 3,
+  "hard_largest_cluster_fraction": 0.7694,
+  "common_metric_status": "valid",
+  "common_space": "fixed_input_features_same_for_every_method_and_seed",
+  "common_sample_sha256": "5fa606a0f0d9e2d9cfeb3e945abd4193e84d81494b1b965eb9959ba86679429c",
+  "common_sample_n": 2000,
+  "cluster_counts": [
+    3847,
+    1060,
+    93
+  ],
+  "active_clusters": 3,
+  "max_cluster_share": 0.7694,
+  "assignment_entropy": 0.002734125591814518,
+  "collapsed": false,
+  "epochs": 100,
+  "finetune_seconds": 16.928263450987288,
+  "pretrain_seconds": 8.06674260701584,
+  "peak_gpu_gb": 0.12177276611328125,
+  "guard_count": 0,
+  "rescue_count": 0,
+  "execution_trace": [
+    {
+      "session_id": "20261111T171234_7e764991",
+      "start_epoch": 0,
+      "start_batch": 0,
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    },
+    {
+      "session_id": "20261111T171234_7e764991",
+      "start_epoch": 0,
+      "start_batch": 0,
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    },
+    {
+      "session_id": "20261111T171234_7e764991",
+      "phase": "evaluation",
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    }
+  ],
+  "mixed_environment": false,
+  "predictions_file": "predictions.npz",
+  "predictions_sha256": "b94d97f08f0957e30a7b4e35e6baedeb4493a6b591a43d1b2ec4e2980dfbafec"
+}

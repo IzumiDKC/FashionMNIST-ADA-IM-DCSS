@@ -1,0 +1,310 @@
+{
+  "schema": 2,
+  "version": "full-fmnist-2026-11-10-portable-v2",
+  "identity": "5f7000d46a2b7c239ba59170809bc425a95eb18f3a4db57e0b653aa995e2e95b",
+  "scientific_spec": {
+    "config": {
+      "backbone": "dense_linear_decoder",
+      "batch_size": 256,
+      "cluster_epochs": 100,
+      "cluster_lr": 0.0005,
+      "dense_hidden": [
+        500,
+        500,
+        2000
+      ],
+      "evaluation_sample_size": 2000,
+      "evaluation_seed": 20261111,
+      "grad_clip": null,
+      "input_dim": 16,
+      "kmeans_n_init": 100,
+      "labeled": true,
+      "latent_dim": 10,
+      "methods": [
+        "dcss_paper",
+        "dcss_rms",
+        "im_rms",
+        "ada_im"
+      ],
+      "n_clusters": 10,
+      "pretrain_epochs": 100,
+      "pretrain_lr": 0.001,
+      "pretrain_weight_decay": 1e-05,
+      "primary_metric": "ARI",
+      "profile": "pendigits",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "split": "all_transductive"
+    },
+    "data": {
+      "class_counts_audit_only": [
+        1143,
+        1143,
+        1144,
+        1055,
+        1144,
+        1055,
+        1056,
+        1142,
+        1055,
+        1055
+      ],
+      "dataset": "pendigits",
+      "design": "transductive_all_inputs; labels_final_evaluation_only",
+      "extension": "multi-dataset-2026-11-11-v1",
+      "extension_sources": {
+        "dcss_core.py": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550",
+        "multi_data.py": "8b3a503db6492e75ba5b1c1f42ffc82a7aba77209b22cbe15097a4323287f4b8",
+        "multi_runner.py": "c63c9959f9f6a99da2c4afef39a2eebeff16558ed7913ad9b722e21ccc84ef5c"
+      },
+      "features_sha256": "b9d65e3f7348caaf3806cf3a406abaae4daa1bf46a64874763e14f1344280ff8",
+      "input_dim": 16,
+      "labeled": true,
+      "labels_sha256": "9ffdf706abd2137b0502831b1be49709df83478e79d60691c89d528abe510da0",
+      "n": 10992,
+      "n_clusters": 10,
+      "normalization": "fixed coordinate/100",
+      "order": "train_then_test",
+      "original_split_sizes": [
+        7494,
+        3498
+      ],
+      "source_sha256": {
+        "pendigits.names": "a90a76e1edac6f1b50f4b44db80587d7b92601fcbb153c83c2c3210c21b34f60",
+        "pendigits.tes": "8bd03229c5c5291fefe43e45465dd948d2645bf23328b9d993e0b777666b2015",
+        "pendigits.tra": "e2b9eb9f0d0467e2b64a4816a3420edf2b8043447576f4b84337aba44a9f97d3"
+      },
+      "version": "multi-data-2026-11-11-v1"
+    },
+    "mathematical_code_sha256": "b22f491b59a5303e605423f90ce38f47d441af5733cb2b36d493fbf31e9733da",
+    "methods": [
+      {
+        "balance": 0.0,
+        "ema": 0.15,
+        "ent": 0.01,
+        "entropy_base": "e",
+        "name": "dcss_paper",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "one_trainable",
+        "sil": 0.01,
+        "temperature": 0.05,
+        "warmup": 0.0
+      },
+      {
+        "balance": 0.0,
+        "ema": 0.15,
+        "ent": 0.01,
+        "entropy_base": "e",
+        "name": "dcss_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.01,
+        "temperature": 0.05,
+        "warmup": 0.0
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "im_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "ada_im",
+        "objective": "paper_normalized",
+        "rescue": true,
+        "sigma": "adaptive",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      }
+    ],
+    "scientific_version": "dcss-equations-ada-2026-11-09",
+    "training_semantics": "Adam(.9,.999),fp32,noAMP,noTF32,deterministic,epoch_batches_v1,no_label_selection"
+  },
+  "config": {
+    "profile": "pendigits",
+    "split": "all_transductive",
+    "backbone": "dense_linear_decoder",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "methods": [
+      "dcss_paper",
+      "dcss_rms",
+      "im_rms",
+      "ada_im"
+    ],
+    "pretrain_epochs": 100,
+    "cluster_epochs": 100,
+    "batch_size": 256,
+    "latent_dim": 10,
+    "n_clusters": 10,
+    "pretrain_lr": 0.001,
+    "cluster_lr": 0.0005,
+    "pretrain_weight_decay": 1e-05,
+    "kmeans_n_init": 100,
+    "grad_clip": null,
+    "require_cuda": true,
+    "primary_metric": "ARI",
+    "cpu_threads": 2,
+    "input_dim": 16,
+    "dense_hidden": [
+      500,
+      500,
+      2000
+    ],
+    "evaluation_sample_size": 2000,
+    "evaluation_seed": 20261111,
+    "labeled": true
+  },
+  "methods": [
+    {
+      "balance": 0.0,
+      "ema": 0.15,
+      "ent": 0.01,
+      "entropy_base": "e",
+      "name": "dcss_paper",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "one_trainable",
+      "sil": 0.01,
+      "temperature": 0.05,
+      "warmup": 0.0
+    },
+    {
+      "balance": 0.0,
+      "ema": 0.15,
+      "ent": 0.01,
+      "entropy_base": "e",
+      "name": "dcss_rms",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "rms_trainable",
+      "sil": 0.01,
+      "temperature": 0.05,
+      "warmup": 0.0
+    },
+    {
+      "balance": 0.004,
+      "ema": 0.15,
+      "ent": 0.0025,
+      "entropy_base": "e",
+      "name": "im_rms",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "rms_trainable",
+      "sil": 0.012,
+      "temperature": 0.05,
+      "warmup": 0.7
+    },
+    {
+      "balance": 0.004,
+      "ema": 0.15,
+      "ent": 0.0025,
+      "entropy_base": "e",
+      "name": "ada_im",
+      "objective": "paper_normalized",
+      "rescue": true,
+      "sigma": "adaptive",
+      "sil": 0.012,
+      "temperature": 0.05,
+      "warmup": 0.7
+    }
+  ],
+  "data": {
+    "dataset": "pendigits",
+    "version": "multi-data-2026-11-11-v1",
+    "n": 10992,
+    "input_dim": 16,
+    "n_clusters": 10,
+    "labeled": true,
+    "design": "transductive_all_inputs; labels_final_evaluation_only",
+    "order": "train_then_test",
+    "normalization": "fixed coordinate/100",
+    "features_sha256": "b9d65e3f7348caaf3806cf3a406abaae4daa1bf46a64874763e14f1344280ff8",
+    "labels_sha256": "9ffdf706abd2137b0502831b1be49709df83478e79d60691c89d528abe510da0",
+    "source_sha256": {
+      "pendigits.names": "a90a76e1edac6f1b50f4b44db80587d7b92601fcbb153c83c2c3210c21b34f60",
+      "pendigits.tes": "8bd03229c5c5291fefe43e45465dd948d2645bf23328b9d993e0b777666b2015",
+      "pendigits.tra": "e2b9eb9f0d0467e2b64a4816a3420edf2b8043447576f4b84337aba44a9f97d3"
+    },
+    "class_counts_audit_only": [
+      1143,
+      1143,
+      1144,
+      1055,
+      1144,
+      1055,
+      1056,
+      1142,
+      1055,
+      1055
+    ],
+    "original_split_sizes": [
+      7494,
+      3498
+    ],
+    "extension": "multi-dataset-2026-11-11-v1",
+    "extension_sources": {
+      "multi_runner.py": "c63c9959f9f6a99da2c4afef39a2eebeff16558ed7913ad9b722e21ccc84ef5c",
+      "multi_data.py": "8b3a503db6492e75ba5b1c1f42ffc82a7aba77209b22cbe15097a4323287f4b8",
+      "dcss_core.py": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550"
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA L4",
+    "vram_gb": 22.0343017578125,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "code_sha256": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550",
+  "upstream_commit": "fa3d84c0f3e7c682729cd5ba6f856bb3ef532637"
+}

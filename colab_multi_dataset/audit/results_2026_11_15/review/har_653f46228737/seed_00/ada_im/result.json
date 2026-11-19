@@ -1,0 +1,150 @@
+{
+  "identity": "653f46228737a3b272d731f89959366a5d9bb165277d215664d81f81552a39db:0:ada_im",
+  "seed": 0,
+  "method": "ada_im",
+  "profile": "har",
+  "n": 10299,
+  "status": "complete",
+  "silhouette_common": 0.11274529248476028,
+  "DB_common": 2.612202564703941,
+  "CH_common": 724.6246948242188,
+  "ACC": 0.621710845713176,
+  "NMI": 0.7018062732521839,
+  "ARI": 0.5853239680639042,
+  "hard_active_clusters": 6,
+  "hard_largest_cluster_fraction": 0.3523643072142926,
+  "common_metric_status": "valid",
+  "common_space": "fixed_input_features_same_for_every_method_and_seed",
+  "common_sample_sha256": "b5acd49669afdc740f0199ac956157af8c4875cee78af7c98fe6167e9ba152a0",
+  "common_sample_n": 2000,
+  "cluster_counts": [
+    1462,
+    1994,
+    2550,
+    3629,
+    419,
+    245
+  ],
+  "active_clusters": 6,
+  "max_cluster_share": 0.3523643072142926,
+  "assignment_entropy": 0.03845001012086868,
+  "collapsed": false,
+  "epochs": 100,
+  "finetune_seconds": 36.975063294000165,
+  "pretrain_seconds": 95.53112686700092,
+  "peak_gpu_gb": 0.1354656219482422,
+  "guard_count": 0,
+  "rescue_count": 0,
+  "execution_trace": [
+    {
+      "session_id": "20261111T151153_e46f9477",
+      "start_epoch": 0,
+      "start_batch": 0,
+      "environment": {
+        "python": "3.13.18",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cpu",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cpu",
+        "cuda": null,
+        "cudnn": null,
+        "gpu": null,
+        "vram_gb": null,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    },
+    {
+      "session_id": "20261111T151724_49862376",
+      "start_epoch": 19,
+      "start_batch": 0,
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    },
+    {
+      "session_id": "20261111T151724_49862376",
+      "start_epoch": 0,
+      "start_batch": 0,
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    },
+    {
+      "session_id": "20261111T151724_49862376",
+      "phase": "evaluation",
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    }
+  ],
+  "mixed_environment": true,
+  "predictions_file": "predictions.npz",
+  "predictions_sha256": "0d0c5f232b0bac7460dacb48065a0a84b2deb8696bed228636fe7685d3e3c032"
+}

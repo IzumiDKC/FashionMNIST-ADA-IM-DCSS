@@ -1,0 +1,88 @@
+{
+  "identity": "653f46228737a3b272d731f89959366a5d9bb165277d215664d81f81552a39db:5:ae_kmeans",
+  "seed": 5,
+  "method": "ae_kmeans",
+  "profile": "har",
+  "n": 10299,
+  "status": "complete",
+  "silhouette_common": 0.07836955785751343,
+  "DB_common": 3.13322204633665,
+  "CH_common": 712.7835083007812,
+  "ACC": 0.6963782891542868,
+  "NMI": 0.6471977175128898,
+  "ARI": 0.5413942794018208,
+  "hard_active_clusters": 6,
+  "hard_largest_cluster_fraction": 0.1939023206136518,
+  "common_metric_status": "valid",
+  "common_space": "fixed_input_features_same_for_every_method_and_seed",
+  "common_sample_sha256": "b5acd49669afdc740f0199ac956157af8c4875cee78af7c98fe6167e9ba152a0",
+  "common_sample_n": 2000,
+  "cluster_counts": [
+    1854,
+    1644,
+    1997,
+    1391,
+    1453,
+    1960
+  ],
+  "execution_trace": [
+    {
+      "session_id": "20261111T151724_49862376",
+      "start_epoch": 0,
+      "start_batch": 0,
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    },
+    {
+      "session_id": "20261111T151724_49862376",
+      "phase": "evaluation",
+      "environment": {
+        "python": "3.13.16",
+        "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+        "packages": {
+          "torch": "2.14.1+cu130",
+          "numpy": "2.4.6",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "pandas": "2.2.3",
+          "matplotlib": "3.10.0",
+          "gdown": "5.2.2",
+          "threadpoolctl": "3.7.0"
+        },
+        "device": "cuda",
+        "cuda": "13.0",
+        "cudnn": 92800,
+        "gpu": "NVIDIA L4",
+        "vram_gb": 22.0343017578125,
+        "deterministic_algorithms": true,
+        "amp": false,
+        "tf32": false
+      }
+    }
+  ],
+  "mixed_environment": false,
+  "pretrain_seconds": 17.340816933998212,
+  "finetune_seconds": 0.0,
+  "predictions_file": "predictions.npz",
+  "predictions_sha256": "a88ed23f02fe52cdd1b37d13c9b3c1613288a20257f0475e247cff794aa6b331"
+}

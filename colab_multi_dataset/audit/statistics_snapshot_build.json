@@ -1,0 +1,10 @@
+{
+  "snapshot_sha256": "8101169983828c150a8f000aa304b5c08b35da08b5170d3d1cbe945a1e51c66b",
+  "compressed_bytes": 1481677,
+  "notebook": "F:\\ThacSi\\Data Mining\\final\\colab_multi_dataset\\ThongKe_DCSS_MultiDataset.ipynb",
+  "records": 300,
+  "new_results": 250,
+  "history_phases": 250,
+  "epoch_rows": 25000,
+  "verification": "JSON và lịch sử; không tính lại dự đoán từ model/checkpoint"
+}

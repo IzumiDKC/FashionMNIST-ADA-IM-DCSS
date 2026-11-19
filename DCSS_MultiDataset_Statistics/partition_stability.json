@@ -1,0 +1,227 @@
+[
+  {
+    "dataset":"emnist",
+    "method":"ae_kmeans",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.5761827303,
+    "pairwise_sd_descriptive":0.0306870875,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"emnist",
+    "method":"dcss_paper",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.6438441279,
+    "pairwise_sd_descriptive":0.043586813,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"emnist",
+    "method":"dcss_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.6500133878,
+    "pairwise_sd_descriptive":0.0353112617,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"emnist",
+    "method":"im_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.6438199907,
+    "pairwise_sd_descriptive":0.0305670218,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"emnist",
+    "method":"ada_im",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.6417520597,
+    "pairwise_sd_descriptive":0.0382856401,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"har",
+    "method":"ae_kmeans",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.6198481166,
+    "pairwise_sd_descriptive":0.0949148705,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"har",
+    "method":"dcss_paper",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.9862172733,
+    "pairwise_sd_descriptive":0.0069752854,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"har",
+    "method":"dcss_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.9338694827,
+    "pairwise_sd_descriptive":0.1072118755,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"har",
+    "method":"im_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.6849074166,
+    "pairwise_sd_descriptive":0.1043392845,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"har",
+    "method":"ada_im",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.5785294066,
+    "pairwise_sd_descriptive":0.0731166829,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"pendigits",
+    "method":"ae_kmeans",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.7214880387,
+    "pairwise_sd_descriptive":0.0661072944,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"pendigits",
+    "method":"dcss_paper",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.7766572493,
+    "pairwise_sd_descriptive":0.0733610633,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"pendigits",
+    "method":"dcss_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.7773633815,
+    "pairwise_sd_descriptive":0.0721131499,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"pendigits",
+    "method":"im_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.7771970107,
+    "pairwise_sd_descriptive":0.0743661454,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"pendigits",
+    "method":"ada_im",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.7783211202,
+    "pairwise_sd_descriptive":0.0758133928,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"waveform",
+    "method":"ae_kmeans",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.666664875,
+    "pairwise_sd_descriptive":0.2985383336,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"waveform",
+    "method":"dcss_paper",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.3248550717,
+    "pairwise_sd_descriptive":0.3100540985,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"waveform",
+    "method":"dcss_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.4470073344,
+    "pairwise_sd_descriptive":0.3224128928,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"waveform",
+    "method":"im_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.5390481616,
+    "pairwise_sd_descriptive":0.3815568534,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"waveform",
+    "method":"ada_im",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.6631829451,
+    "pairwise_sd_descriptive":0.3417652984,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"personas",
+    "method":"ae_kmeans",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.8243137825,
+    "pairwise_sd_descriptive":0.0807819135,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"personas",
+    "method":"dcss_paper",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.2290703239,
+    "pairwise_sd_descriptive":0.3493659334,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"personas",
+    "method":"dcss_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.7990712382,
+    "pairwise_sd_descriptive":0.4036683838,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"personas",
+    "method":"im_rms",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.2608746208,
+    "pairwise_sd_descriptive":0.0349304669,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  },
+  {
+    "dataset":"personas",
+    "method":"ada_im",
+    "seeds":10,
+    "pairs":45,
+    "partition_ARI_mean":0.3087378312,
+    "pairwise_sd_descriptive":0.0730729628,
+    "interpretation":"dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples"
+  }
+]

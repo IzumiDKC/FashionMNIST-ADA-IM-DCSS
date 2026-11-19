@@ -1,0 +1,124 @@
+{
+  "schema": 2,
+  "created_at": "2026-11-10T04:13:37.788377+00:00",
+  "checkpoint_identity": "2cd93c725947ac809fee8f86d1fcd06fd39491e19087043a780398cb3788f307",
+  "scientific_spec": {
+    "config": {
+      "backbone": "author_conv_bn",
+      "batch_size": 256,
+      "cluster_epochs": 100,
+      "cluster_lr": 0.0005,
+      "grad_clip": null,
+      "kmeans_n_init": 100,
+      "latent_dim": 10,
+      "methods": [
+        "dcss_paper",
+        "dcss_rms",
+        "im_rms",
+        "ada_im"
+      ],
+      "n_clusters": 10,
+      "pretrain_epochs": 100,
+      "pretrain_lr": 0.001,
+      "pretrain_weight_decay": 1e-05,
+      "primary_metric": "ARI",
+      "profile": "paper70k",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "split": "all70k"
+    },
+    "data": {
+      "class_counts_audit_only": [
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000,
+        7000
+      ],
+      "n": 70000,
+      "normalization": "float32(pixel)/255",
+      "order": "train_then_test",
+      "sha256": {
+        "t10k-images-idx3-ubyte": "5b4141f0afbad91edebe8549f8fcffe087ea10ca49f1dbef5c9a5cd8815ce37b",
+        "t10k-labels-idx1-ubyte": "0402a96d92fd2663957122ceb108a494c5af83dab82d92729df917d7dec38c34",
+        "train-images-idx3-ubyte": "c59f468a2f672dc815687fe0f83887768d799fd8a3f3276145d20f83aa44d888",
+        "train-labels-idx1-ubyte": "bad3541b69d912435c50bb6ba87bec294ff4f6a2e1246121d8633921760443d9"
+      },
+      "split": "all70k"
+    },
+    "mathematical_code_sha256": "b22f491b59a5303e605423f90ce38f47d441af5733cb2b36d493fbf31e9733da",
+    "methods": [
+      {
+        "balance": 0.0,
+        "ema": 0.15,
+        "ent": 0.01,
+        "entropy_base": "e",
+        "name": "dcss_paper",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "one_trainable",
+        "sil": 0.01,
+        "temperature": 0.05,
+        "warmup": 0.0
+      },
+      {
+        "balance": 0.0,
+        "ema": 0.15,
+        "ent": 0.01,
+        "entropy_base": "e",
+        "name": "dcss_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.01,
+        "temperature": 0.05,
+        "warmup": 0.0
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "im_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "ada_im",
+        "objective": "paper_normalized",
+        "rescue": true,
+        "sigma": "adaptive",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      }
+    ],
+    "scientific_version": "dcss-equations-ada-2026-11-09",
+    "training_semantics": "Adam(.9,.999),fp32,noAMP,noTF32,deterministic,epoch_batches_v1,no_label_selection"
+  },
+  "original_manifest_sha256": "27838326fcd6ac5e16d97c3c2347fa4e8c0df06e2d3c965d0297781d8193baa2",
+  "migrated_from_v1": true
+}

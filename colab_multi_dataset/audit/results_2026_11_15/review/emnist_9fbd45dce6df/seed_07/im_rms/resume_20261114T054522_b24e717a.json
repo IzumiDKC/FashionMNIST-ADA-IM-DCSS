@@ -1,0 +1,52 @@
+{
+  "session_id": "20261114T054522_b24e717a",
+  "at": "2026-11-14T05:46:39.527605+00:00",
+  "epoch": 47,
+  "next_batch": 0,
+  "rng": "restored_cpu_and_cuda0_rng",
+  "previous_environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA L4",
+    "vram_gb": 22.0343017578125,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "current_environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA L4",
+    "vram_gb": 22.0343017578125,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "previous_slot_recovered": false
+}

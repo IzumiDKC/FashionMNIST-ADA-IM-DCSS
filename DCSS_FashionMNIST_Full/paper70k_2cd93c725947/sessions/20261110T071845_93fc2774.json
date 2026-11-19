@@ -1,0 +1,62 @@
+{
+  "session_id": "20261110T071845_93fc2774",
+  "started_at": "2026-11-10T07:18:45.646957+00:00",
+  "state": "complete",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "vram_gb": 39.4935302734375,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "previous_environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "vram_gb": 39.4935302734375,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "software_changed": false,
+  "hardware_changed": false,
+  "runtime_options": {
+    "device": "auto",
+    "allow_cpu": true,
+    "checkpoint_seconds": 300,
+    "max_session_hours": 0.0,
+    "allow_software_change": true,
+    "resume_folder": null
+  },
+  "code_sha256": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550",
+  "cross_environment_bitwise_equivalence_claimed": false,
+  "ended_at": "2026-11-10T07:18:54.642252+00:00"
+}

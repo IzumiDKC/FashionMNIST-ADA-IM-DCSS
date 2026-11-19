@@ -1,0 +1,33 @@
+{
+  "identity": "2cd93c725947ac809fee8f86d1fcd06fd39491e19087043a780398cb3788f307:1:dcss_paper",
+  "seed": 1,
+  "method": "dcss_paper",
+  "profile": "paper70k",
+  "n": 70000,
+  "epochs": 100,
+  "status": "complete",
+  "ACC": 0.5615142857142857,
+  "NMI": 0.6355518578860849,
+  "ARI": 0.4402289181190609,
+  "active_clusters": 9,
+  "max_cluster_share": 0.2722,
+  "assignment_entropy": 0.0006249854923225939,
+  "cluster_counts": [
+    11719,
+    0,
+    3868,
+    12460,
+    6751,
+    7267,
+    2610,
+    19054,
+    2790,
+    3481
+  ],
+  "collapsed": false,
+  "sampled_hard_silhouette": 0.8672181367874146,
+  "finetune_seconds": 575.3167165089972,
+  "peak_gpu_gb": 0.11890268325805664,
+  "guard_count": 0,
+  "rescue_count": 0
+}

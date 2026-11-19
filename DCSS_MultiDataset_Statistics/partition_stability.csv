@@ -1,0 +1,26 @@
+﻿dataset,method,seeds,pairs,partition_ARI_mean,pairwise_sd_descriptive,interpretation
+emnist,ae_kmeans,10,45,0.5761827303132618,0.03068708746907352,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+emnist,dcss_paper,10,45,0.643844127900218,0.04358681301886624,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+emnist,dcss_rms,10,45,0.6500133877687058,0.035311261668965616,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+emnist,im_rms,10,45,0.6438199907295641,0.03056702177471399,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+emnist,ada_im,10,45,0.6417520597290571,0.03828564011108272,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+har,ae_kmeans,10,45,0.6198481166269623,0.09491487054092256,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+har,dcss_paper,10,45,0.9862172732933978,0.006975285438172146,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+har,dcss_rms,10,45,0.9338694826599673,0.10721187552985284,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+har,im_rms,10,45,0.6849074166243361,0.10433928452003555,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+har,ada_im,10,45,0.5785294065785022,0.07311668290528915,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+pendigits,ae_kmeans,10,45,0.7214880386848049,0.06610729438643506,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+pendigits,dcss_paper,10,45,0.7766572492964441,0.07336106332064125,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+pendigits,dcss_rms,10,45,0.777363381473738,0.07211314985076066,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+pendigits,im_rms,10,45,0.7771970106764102,0.07436614540682496,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+pendigits,ada_im,10,45,0.7783211202129664,0.07581339279732296,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+waveform,ae_kmeans,10,45,0.6666648749616364,0.2985383336227272,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+waveform,dcss_paper,10,45,0.32485507174705547,0.31005409854473454,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+waveform,dcss_rms,10,45,0.4470073343662434,0.3224128928014191,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+waveform,im_rms,10,45,0.5390481616039685,0.3815568534445844,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+waveform,ada_im,10,45,0.6631829450582617,0.3417652983598755,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+personas,ae_kmeans,10,45,0.8243137824927034,0.08078191354031222,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+personas,dcss_paper,10,45,0.22907032393097704,0.3493659334015438,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+personas,dcss_rms,10,45,0.7990712381897692,0.40366838378697534,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+personas,im_rms,10,45,0.2608746207673806,0.03493046687712801,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples
+personas,ada_im,10,45,0.30873783117109166,0.07307296279084943,dependent seed-pair descriptions; not ground-truth accuracy and not independent test samples

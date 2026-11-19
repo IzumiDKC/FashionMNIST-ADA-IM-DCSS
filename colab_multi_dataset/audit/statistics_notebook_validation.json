@@ -1,0 +1,16 @@
+{
+  "golden_mean_sd_values_checked": 300,
+  "primary_comparisons_checked": 5,
+  "missing_seed_handling": true,
+  "all_cells_executed": true,
+  "code_cells": 14,
+  "gpu_required": false,
+  "readonly_source_files_verified": 1298,
+  "record_count": 300,
+  "new_results": 250,
+  "epoch_records": 25000,
+  "figures": 7,
+  "notebook_sha256": "9c17e560a0cee57bfc285fb2ee58ae01326e2bbfff625f3fcb48b63ec6d8477a",
+  "notebook_bytes": 3692304,
+  "output_directory": "F:\\ThacSi\\Data Mining\\final\\DCSS_MultiDataset_Statistics"
+}

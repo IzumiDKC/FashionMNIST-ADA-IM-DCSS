@@ -1,0 +1,18 @@
+{
+  "schema": 2,
+  "identity": "653f46228737a3b272d731f89959366a5d9bb165277d215664d81f81552a39db:1:dcss_paper",
+  "current": {
+    "file": "checkpoint_A.pt",
+    "sha256": "eb6e54738be0a353e358a9d7a2948bde6a37277c4bba2459d2f473f2585b1ac4",
+    "next_epoch": 100,
+    "next_batch": 0,
+    "saved_at": "2026-11-11T15:25:29.871065+00:00"
+  },
+  "previous": {
+    "file": "checkpoint_B.pt",
+    "sha256": "e072a50a792be5f70d93179517dc8076c3f980f783f5e50d827bd8551a036e33",
+    "next_epoch": 99,
+    "next_batch": 0,
+    "saved_at": "2026-11-11T15:25:29.125602+00:00"
+  }
+}

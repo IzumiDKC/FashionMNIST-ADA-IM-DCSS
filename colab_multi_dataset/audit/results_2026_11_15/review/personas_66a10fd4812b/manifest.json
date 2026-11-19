@@ -1,0 +1,438 @@
+{
+  "schema": 2,
+  "version": "full-fmnist-2026-11-10-portable-v2",
+  "identity": "66a10fd4812bfbf50b0f54444b453004b70c2787b1896d8035e5cea1491c60c3",
+  "scientific_spec": {
+    "config": {
+      "backbone": "dense_linear_decoder",
+      "batch_size": 256,
+      "cluster_epochs": 100,
+      "cluster_lr": 0.0005,
+      "dense_hidden": [
+        500,
+        500,
+        2000
+      ],
+      "evaluation_sample_size": 2000,
+      "evaluation_seed": 20261111,
+      "grad_clip": null,
+      "input_dim": 384,
+      "kmeans_n_init": 100,
+      "labeled": false,
+      "latent_dim": 10,
+      "methods": [
+        "dcss_paper",
+        "dcss_rms",
+        "im_rms",
+        "ada_im"
+      ],
+      "n_clusters": 20,
+      "pretrain_epochs": 100,
+      "pretrain_lr": 0.001,
+      "pretrain_weight_decay": 1e-05,
+      "primary_metric": "silhouette_common",
+      "profile": "personas",
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "split": "all_transductive"
+    },
+    "data": {
+      "dataset": "personas",
+      "design": "exploratory_transductive_synthetic_text_no_ground_truth",
+      "embedding": {
+        "dimension": 384,
+        "embedding_spec": {
+          "attention": "eager",
+          "batch_size": 64,
+          "chunk_size": 512,
+          "column": "persona",
+          "dtype": "float32",
+          "l2_normalized": true,
+          "max_length": 128,
+          "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "pooling": "attention_mask_mean",
+          "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42"
+        },
+        "mixed_environment": false,
+        "n": 100000,
+        "original_token_count": 11120124,
+        "sha256": "c7620f7099e30aa8d9ec2527141290e28363bef81f46fda27ec9156b0c53e3c4",
+        "spec_hash": "eaef62198d49709640ae404b778a4d745b1e9647f84dd0473c69ba8c29fa4120",
+        "truncated_rows": 17260
+      },
+      "extension": "multi-dataset-2026-11-11-v1",
+      "extension_sources": {
+        "dcss_core.py": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550",
+        "multi_data.py": "8b3a503db6492e75ba5b1c1f42ffc82a7aba77209b22cbe15097a4323287f4b8",
+        "multi_runner.py": "c63c9959f9f6a99da2c4afef39a2eebeff16558ed7913ad9b722e21ccc84ef5c"
+      },
+      "features_sha256": "af1e16bb6ad8cbcb9c6223e87bff443462d858e820584b4657fbfb7a4367a8c7",
+      "input_dim": 384,
+      "k_policy": "20 prespecified exploratory groups; not a known true class count",
+      "labeled": false,
+      "n": 100000,
+      "n_clusters": 20,
+      "normalization": "frozen_L2_embedding",
+      "sample": {
+        "global_indices_sha256": "f84b0414af4076f5b55ea236f7b6d72288849dfac783f16cf1f371d7c92ad254",
+        "identifiers_sha256": "5bb60fc9028c703d3de6c29507258ee075bba29f5a3e86a9b54c91f907bd308f",
+        "n": 100000,
+        "seed": 20261111,
+        "shards": [
+          {
+            "name": "train-00000-of-00011.parquet",
+            "rows": 90910,
+            "sha256": "7ba73013539e2edb61dc748086edfe52e0107adf124620f17364c5ec0b244ae4"
+          },
+          {
+            "name": "train-00001-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "2f51118c6e5e52b5d5898ec94e806bbe4d44bd850d97bb629a5b50cdf1f15f30"
+          },
+          {
+            "name": "train-00002-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "269fd8e758df6a491d0bdf29970ac0eb0d3bd3cce1f9dd1738c5e6c07032aae0"
+          },
+          {
+            "name": "train-00003-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "e7166520935d4edb272a2b06e0396bf3ef3a30b35fb8e424a816aa81163c33bd"
+          },
+          {
+            "name": "train-00004-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "ee53b6b8958df47dd0629ccb1e381dc12fee11745ce89e1c319c7fa49ed145d1"
+          },
+          {
+            "name": "train-00005-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "d8b6086c07efe92598c999760c13d57a549c62bed524eb2ddd4a5e372f390008"
+          },
+          {
+            "name": "train-00006-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "514c196bdd37de085e06cfbcf1e457538ccead69a0cb628a79a3f46839e4b0bb"
+          },
+          {
+            "name": "train-00007-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "623097c1d124a81bebdb8a87d4767ae64653c9fc98163a9103295d12dceb41f0"
+          },
+          {
+            "name": "train-00008-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "3545a04105ea216f2a817fd3ca6e42d2f7aff698214ead1831672887fff00e8f"
+          },
+          {
+            "name": "train-00009-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "9ced19f4cd3f52bfa89e797555366196ecd3b0693579ae2a5a45c24b5c88718f"
+          },
+          {
+            "name": "train-00010-of-00011.parquet",
+            "rows": 90909,
+            "sha256": "5ac13b02df277193f17b27a87585e051409cef75bac711962b86734332e7d995"
+          }
+        ],
+        "texts_sha256": "f25a3fd6eed900f3a763f3541eb9d3615ad709fb70a024288a7770df2792149b",
+        "version": "multi-data-2026-11-11-v1"
+      },
+      "version": "multi-data-2026-11-11-v1"
+    },
+    "mathematical_code_sha256": "b22f491b59a5303e605423f90ce38f47d441af5733cb2b36d493fbf31e9733da",
+    "methods": [
+      {
+        "balance": 0.0,
+        "ema": 0.15,
+        "ent": 0.01,
+        "entropy_base": "e",
+        "name": "dcss_paper",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "one_trainable",
+        "sil": 0.01,
+        "temperature": 0.05,
+        "warmup": 0.0
+      },
+      {
+        "balance": 0.0,
+        "ema": 0.15,
+        "ent": 0.01,
+        "entropy_base": "e",
+        "name": "dcss_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.01,
+        "temperature": 0.05,
+        "warmup": 0.0
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "im_rms",
+        "objective": "paper_normalized",
+        "rescue": false,
+        "sigma": "rms_trainable",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      },
+      {
+        "balance": 0.004,
+        "ema": 0.15,
+        "ent": 0.0025,
+        "entropy_base": "e",
+        "name": "ada_im",
+        "objective": "paper_normalized",
+        "rescue": true,
+        "sigma": "adaptive",
+        "sil": 0.012,
+        "temperature": 0.05,
+        "warmup": 0.7
+      }
+    ],
+    "scientific_version": "dcss-equations-ada-2026-11-09",
+    "training_semantics": "Adam(.9,.999),fp32,noAMP,noTF32,deterministic,epoch_batches_v1,no_label_selection"
+  },
+  "config": {
+    "profile": "personas",
+    "split": "all_transductive",
+    "backbone": "dense_linear_decoder",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "methods": [
+      "dcss_paper",
+      "dcss_rms",
+      "im_rms",
+      "ada_im"
+    ],
+    "pretrain_epochs": 100,
+    "cluster_epochs": 100,
+    "batch_size": 256,
+    "latent_dim": 10,
+    "n_clusters": 20,
+    "pretrain_lr": 0.001,
+    "cluster_lr": 0.0005,
+    "pretrain_weight_decay": 1e-05,
+    "kmeans_n_init": 100,
+    "grad_clip": null,
+    "require_cuda": true,
+    "primary_metric": "silhouette_common",
+    "cpu_threads": 2,
+    "input_dim": 384,
+    "dense_hidden": [
+      500,
+      500,
+      2000
+    ],
+    "evaluation_sample_size": 2000,
+    "evaluation_seed": 20261111,
+    "labeled": false
+  },
+  "methods": [
+    {
+      "balance": 0.0,
+      "ema": 0.15,
+      "ent": 0.01,
+      "entropy_base": "e",
+      "name": "dcss_paper",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "one_trainable",
+      "sil": 0.01,
+      "temperature": 0.05,
+      "warmup": 0.0
+    },
+    {
+      "balance": 0.0,
+      "ema": 0.15,
+      "ent": 0.01,
+      "entropy_base": "e",
+      "name": "dcss_rms",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "rms_trainable",
+      "sil": 0.01,
+      "temperature": 0.05,
+      "warmup": 0.0
+    },
+    {
+      "balance": 0.004,
+      "ema": 0.15,
+      "ent": 0.0025,
+      "entropy_base": "e",
+      "name": "im_rms",
+      "objective": "paper_normalized",
+      "rescue": false,
+      "sigma": "rms_trainable",
+      "sil": 0.012,
+      "temperature": 0.05,
+      "warmup": 0.7
+    },
+    {
+      "balance": 0.004,
+      "ema": 0.15,
+      "ent": 0.0025,
+      "entropy_base": "e",
+      "name": "ada_im",
+      "objective": "paper_normalized",
+      "rescue": true,
+      "sigma": "adaptive",
+      "sil": 0.012,
+      "temperature": 0.05,
+      "warmup": 0.7
+    }
+  ],
+  "data": {
+    "dataset": "personas",
+    "version": "multi-data-2026-11-11-v1",
+    "n": 100000,
+    "input_dim": 384,
+    "n_clusters": 20,
+    "labeled": false,
+    "design": "exploratory_transductive_synthetic_text_no_ground_truth",
+    "normalization": "frozen_L2_embedding",
+    "features_sha256": "af1e16bb6ad8cbcb9c6223e87bff443462d858e820584b4657fbfb7a4367a8c7",
+    "sample": {
+      "version": "multi-data-2026-11-11-v1",
+      "n": 100000,
+      "seed": 20261111,
+      "global_indices_sha256": "f84b0414af4076f5b55ea236f7b6d72288849dfac783f16cf1f371d7c92ad254",
+      "shards": [
+        {
+          "name": "train-00000-of-00011.parquet",
+          "sha256": "7ba73013539e2edb61dc748086edfe52e0107adf124620f17364c5ec0b244ae4",
+          "rows": 90910
+        },
+        {
+          "name": "train-00001-of-00011.parquet",
+          "sha256": "2f51118c6e5e52b5d5898ec94e806bbe4d44bd850d97bb629a5b50cdf1f15f30",
+          "rows": 90909
+        },
+        {
+          "name": "train-00002-of-00011.parquet",
+          "sha256": "269fd8e758df6a491d0bdf29970ac0eb0d3bd3cce1f9dd1738c5e6c07032aae0",
+          "rows": 90909
+        },
+        {
+          "name": "train-00003-of-00011.parquet",
+          "sha256": "e7166520935d4edb272a2b06e0396bf3ef3a30b35fb8e424a816aa81163c33bd",
+          "rows": 90909
+        },
+        {
+          "name": "train-00004-of-00011.parquet",
+          "sha256": "ee53b6b8958df47dd0629ccb1e381dc12fee11745ce89e1c319c7fa49ed145d1",
+          "rows": 90909
+        },
+        {
+          "name": "train-00005-of-00011.parquet",
+          "sha256": "d8b6086c07efe92598c999760c13d57a549c62bed524eb2ddd4a5e372f390008",
+          "rows": 90909
+        },
+        {
+          "name": "train-00006-of-00011.parquet",
+          "sha256": "514c196bdd37de085e06cfbcf1e457538ccead69a0cb628a79a3f46839e4b0bb",
+          "rows": 90909
+        },
+        {
+          "name": "train-00007-of-00011.parquet",
+          "sha256": "623097c1d124a81bebdb8a87d4767ae64653c9fc98163a9103295d12dceb41f0",
+          "rows": 90909
+        },
+        {
+          "name": "train-00008-of-00011.parquet",
+          "sha256": "3545a04105ea216f2a817fd3ca6e42d2f7aff698214ead1831672887fff00e8f",
+          "rows": 90909
+        },
+        {
+          "name": "train-00009-of-00011.parquet",
+          "sha256": "9ced19f4cd3f52bfa89e797555366196ecd3b0693579ae2a5a45c24b5c88718f",
+          "rows": 90909
+        },
+        {
+          "name": "train-00010-of-00011.parquet",
+          "sha256": "5ac13b02df277193f17b27a87585e051409cef75bac711962b86734332e7d995",
+          "rows": 90909
+        }
+      ],
+      "identifiers_sha256": "5bb60fc9028c703d3de6c29507258ee075bba29f5a3e86a9b54c91f907bd308f",
+      "texts_sha256": "f25a3fd6eed900f3a763f3541eb9d3615ad709fb70a024288a7770df2792149b"
+    },
+    "embedding": {
+      "spec_hash": "eaef62198d49709640ae404b778a4d745b1e9647f84dd0473c69ba8c29fa4120",
+      "sha256": "c7620f7099e30aa8d9ec2527141290e28363bef81f46fda27ec9156b0c53e3c4",
+      "n": 100000,
+      "dimension": 384,
+      "truncated_rows": 17260,
+      "original_token_count": 11120124,
+      "embedding_spec": {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+        "column": "persona",
+        "max_length": 128,
+        "pooling": "attention_mask_mean",
+        "l2_normalized": true,
+        "dtype": "float32",
+        "batch_size": 64,
+        "chunk_size": 512,
+        "attention": "eager"
+      },
+      "mixed_environment": false
+    },
+    "k_policy": "20 prespecified exploratory groups; not a known true class count",
+    "extension": "multi-dataset-2026-11-11-v1",
+    "extension_sources": {
+      "multi_runner.py": "c63c9959f9f6a99da2c4afef39a2eebeff16558ed7913ad9b722e21ccc84ef5c",
+      "multi_data.py": "8b3a503db6492e75ba5b1c1f42ffc82a7aba77209b22cbe15097a4323287f4b8",
+      "dcss_core.py": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550"
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "torch": "2.14.1+cu130",
+      "numpy": "2.4.6",
+      "scipy": "1.16.3",
+      "scikit-learn": "1.6.1",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.0",
+      "gdown": "5.2.2",
+      "threadpoolctl": "3.7.0"
+    },
+    "device": "cuda",
+    "cuda": "13.0",
+    "cudnn": 92800,
+    "gpu": "NVIDIA L4",
+    "vram_gb": 22.0343017578125,
+    "deterministic_algorithms": true,
+    "amp": false,
+    "tf32": false
+  },
+  "code_sha256": "e7fcbcd69e0ee7ed572f102f1c50f89bd3c3c0d805dbd583ae4c4c022560b550",
+  "upstream_commit": "fa3d84c0f3e7c682729cd5ba6f856bb3ef532637"
+}

@@ -1,0 +1,9 @@
+{
+  "completed": 9,
+  "expected": 9,
+  "complete": true,
+  "selection": "fixed_final_epoch_all_seeds_including_collapse",
+  "units": "fractions_not_percent",
+  "campaign_mixed_environment": false,
+  "interpretation": "Inspect all seeds and paired intervals; no automatic success declaration."
+}

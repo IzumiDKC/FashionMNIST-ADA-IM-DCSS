@@ -1,0 +1,33 @@
+{
+  "identity": "2cd93c725947ac809fee8f86d1fcd06fd39491e19087043a780398cb3788f307:4:im_rms",
+  "seed": 4,
+  "method": "im_rms",
+  "profile": "paper70k",
+  "n": 70000,
+  "epochs": 100,
+  "status": "complete",
+  "ACC": 0.5127428571428572,
+  "NMI": 0.5951250535009732,
+  "ARI": 0.4082505348479367,
+  "active_clusters": 10,
+  "max_cluster_share": 0.18992857142857142,
+  "assignment_entropy": 0.0008850261801853776,
+  "cluster_counts": [
+    7144,
+    5754,
+    13295,
+    9259,
+    11238,
+    3585,
+    4634,
+    3325,
+    5323,
+    6443
+  ],
+  "collapsed": false,
+  "sampled_hard_silhouette": 0.8570591807365417,
+  "finetune_seconds": 597.8260474930048,
+  "peak_gpu_gb": 0.11890268325805664,
+  "guard_count": 0,
+  "rescue_count": 0
+}

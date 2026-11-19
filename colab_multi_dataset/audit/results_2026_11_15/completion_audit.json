@@ -1,0 +1,364 @@
+{
+  "audit_date": "2026-11-15",
+  "complete": true,
+  "checked_results": 250,
+  "checked_phase_histories": 250,
+  "checked_epoch_records": 25000,
+  "live_status_files_match_archive": true,
+  "notebook_error_count": 0,
+  "issues": [],
+  "ci_absolute_tolerance": 1e-10,
+  "maximum_ci_roundtrip_difference": 1.2038980923279041e-12,
+  "datasets": [
+    {
+      "dataset": "emnist",
+      "n": 131600,
+      "k": 47,
+      "results": 50,
+      "complete": true,
+      "first_complete": "2026-11-14T08:16:42.506046+00:00",
+      "last_complete": "2026-11-14T08:16:42.506046+00:00",
+      "first_complete_vietnam": "2026-11-14T15:16:42.506046+07:00",
+      "campaign_mixed_environment": false,
+      "methods": [
+        {
+          "method": "ae_kmeans",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 47,
+          "maximum_active_clusters": 47,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_paper",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 44,
+          "maximum_active_clusters": 47,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_rms",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 44,
+          "maximum_active_clusters": 46,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "im_rms",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 47,
+          "maximum_active_clusters": 47,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "ada_im",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 43,
+          "maximum_active_clusters": 47,
+          "undefined_internal_metrics": 0
+        }
+      ]
+    },
+    {
+      "dataset": "har",
+      "n": 10299,
+      "k": 6,
+      "results": 50,
+      "complete": true,
+      "first_complete": "2026-11-11T16:17:20.108151+00:00",
+      "last_complete": "2026-11-14T05:42:53.609596+00:00",
+      "first_complete_vietnam": "2026-11-11T23:17:20.108151+07:00",
+      "campaign_mixed_environment": true,
+      "methods": [
+        {
+          "method": "ae_kmeans",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 6,
+          "maximum_active_clusters": 6,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_paper",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 3,
+          "maximum_active_clusters": 4,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_rms",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 3,
+          "maximum_active_clusters": 5,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "im_rms",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 4,
+          "maximum_active_clusters": 6,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "ada_im",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 5,
+          "maximum_active_clusters": 6,
+          "undefined_internal_metrics": 0
+        }
+      ]
+    },
+    {
+      "dataset": "pendigits",
+      "n": 10992,
+      "k": 10,
+      "results": 50,
+      "complete": true,
+      "first_complete": "2026-11-11T17:12:29.395385+00:00",
+      "last_complete": "2026-11-14T05:44:01.765596+00:00",
+      "first_complete_vietnam": "2026-11-12T00:12:29.395385+07:00",
+      "campaign_mixed_environment": false,
+      "methods": [
+        {
+          "method": "ae_kmeans",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 10,
+          "maximum_active_clusters": 10,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_paper",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 10,
+          "maximum_active_clusters": 10,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_rms",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 9,
+          "maximum_active_clusters": 10,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "im_rms",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 10,
+          "maximum_active_clusters": 10,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "ada_im",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 10,
+          "maximum_active_clusters": 10,
+          "undefined_internal_metrics": 0
+        }
+      ]
+    },
+    {
+      "dataset": "waveform",
+      "n": 5000,
+      "k": 3,
+      "results": 50,
+      "complete": true,
+      "first_complete": "2026-11-11T17:52:57.698515+00:00",
+      "last_complete": "2026-11-14T05:45:09.691056+00:00",
+      "first_complete_vietnam": "2026-11-12T00:52:57.698515+07:00",
+      "campaign_mixed_environment": false,
+      "methods": [
+        {
+          "method": "ae_kmeans",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 3,
+          "maximum_active_clusters": 3,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_paper",
+          "completed": 10,
+          "flagged_collapsed": 2,
+          "single_cluster_runs": 2,
+          "minimum_active_clusters": 1,
+          "maximum_active_clusters": 3,
+          "undefined_internal_metrics": 2
+        },
+        {
+          "method": "dcss_rms",
+          "completed": 10,
+          "flagged_collapsed": 1,
+          "single_cluster_runs": 1,
+          "minimum_active_clusters": 1,
+          "maximum_active_clusters": 3,
+          "undefined_internal_metrics": 1
+        },
+        {
+          "method": "im_rms",
+          "completed": 10,
+          "flagged_collapsed": 2,
+          "single_cluster_runs": 1,
+          "minimum_active_clusters": 1,
+          "maximum_active_clusters": 3,
+          "undefined_internal_metrics": 1
+        },
+        {
+          "method": "ada_im",
+          "completed": 10,
+          "flagged_collapsed": 1,
+          "single_cluster_runs": 1,
+          "minimum_active_clusters": 1,
+          "maximum_active_clusters": 3,
+          "undefined_internal_metrics": 1
+        }
+      ]
+    },
+    {
+      "dataset": "personas",
+      "n": 100000,
+      "k": 20,
+      "results": 50,
+      "complete": true,
+      "first_complete": "2026-11-14T13:39:29.369005+00:00",
+      "last_complete": "2026-11-14T13:39:29.369005+00:00",
+      "first_complete_vietnam": "2026-11-14T20:39:29.369005+07:00",
+      "campaign_mixed_environment": false,
+      "methods": [
+        {
+          "method": "ae_kmeans",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 20,
+          "maximum_active_clusters": 20,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "dcss_paper",
+          "completed": 10,
+          "flagged_collapsed": 10,
+          "single_cluster_runs": 1,
+          "minimum_active_clusters": 1,
+          "maximum_active_clusters": 2,
+          "undefined_internal_metrics": 1
+        },
+        {
+          "method": "dcss_rms",
+          "completed": 10,
+          "flagged_collapsed": 10,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 2,
+          "maximum_active_clusters": 3,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "im_rms",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 16,
+          "maximum_active_clusters": 20,
+          "undefined_internal_metrics": 0
+        },
+        {
+          "method": "ada_im",
+          "completed": 10,
+          "flagged_collapsed": 0,
+          "single_cluster_runs": 0,
+          "minimum_active_clusters": 9,
+          "maximum_active_clusters": 16,
+          "undefined_internal_metrics": 0
+        }
+      ]
+    }
+  ],
+  "primary_comparisons": [
+    {
+      "dataset": "emnist",
+      "metric": "ARI",
+      "n": 10,
+      "mean_delta": -0.01078586101726275,
+      "sd": 0.00985136010022554,
+      "ci95_low": -0.017833099498162946,
+      "ci95_high": -0.003738622536362551,
+      "sign_flip_p_two_sided": 0.01171875,
+      "holm_p_family5": 0.05859375
+    },
+    {
+      "dataset": "har",
+      "metric": "ARI",
+      "n": 10,
+      "mean_delta": -0.012593678690761783,
+      "sd": 0.06811191712003388,
+      "ci95_low": -0.06131800898147957,
+      "ci95_high": 0.036130651599956,
+      "sign_flip_p_two_sided": 0.58203125,
+      "holm_p_family5": 1.0
+    },
+    {
+      "dataset": "pendigits",
+      "metric": "ARI",
+      "n": 10,
+      "mean_delta": 0.0018152333011275724,
+      "sd": 0.0032590713918626245,
+      "ci95_low": -0.0005161659260927822,
+      "ci95_high": 0.004146632528347927,
+      "sign_flip_p_two_sided": 0.12109375,
+      "holm_p_family5": 0.484375
+    },
+    {
+      "dataset": "waveform",
+      "metric": "ARI",
+      "n": 10,
+      "mean_delta": 0.01198800042644231,
+      "sd": 0.031507389961900084,
+      "ci95_low": -0.010551028571913708,
+      "ci95_high": 0.03452702942479833,
+      "sign_flip_p_two_sided": 0.25,
+      "holm_p_family5": 0.75
+    },
+    {
+      "dataset": "personas",
+      "metric": "silhouette_common",
+      "n": 10,
+      "mean_delta": 0.001551496039610356,
+      "sd": 0.026634586018194947,
+      "ci95_low": -0.017501739006175108,
+      "ci95_high": 0.02060473108539582,
+      "sign_flip_p_two_sided": 0.857421875,
+      "holm_p_family5": 1.0
+    }
+  ],
+  "scope": "Verified persisted results, histories, checkpoint indices, input fingerprints, summaries and live completion/status. Model tensors and all predictions.npz were not downloaded or independently recomputed.",
+  "archive_sha256": "994674bd13f021f9c266873b5e1f7415ac8dbfac0e5eb60fb2a36e7b2cf6b94b",
+  "notebook_sha256": "39003561da34e17d8454e2fc68e05fe6b3d3696e16e74f9f7c08f77dede7f12e"
+}

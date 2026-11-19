@@ -1,0 +1,10 @@
+﻿profile,metric,seeds,rule,posthoc_descriptive_only,n_pairs,delta_mean_pp,delta_sd_pp,ci95_low_pp,ci95_high_pp,p_signflip_two_sided,wins,ties,losses
+legacy10k,ARI,"0,1,2",full_trace_single_matching_environment_both_methods,True,3,-0.020994985059260195,0.05063850743029859,-0.14678801103361422,0.10479804091509384,0.5,1,0,2
+legacy10k,NMI,"0,1,2",full_trace_single_matching_environment_both_methods,True,3,0.03754522595221799,0.04094151771397854,-0.06415914217737027,0.13924959408180623,0.25,3,0,0
+legacy10k,ACC,"0,1,2",full_trace_single_matching_environment_both_methods,True,3,-0.036666666666670025,0.03214550253664598,-0.1165205217811182,0.043187188447778135,0.5,0,1,2
+legacy70k,ARI,"0,1,2",full_trace_single_matching_environment_both_methods,True,3,-0.0512437166556301,0.10171099127048856,-0.30390782577015935,0.20142039245889914,0.5,1,0,2
+legacy70k,NMI,"0,1,2",full_trace_single_matching_environment_both_methods,True,3,0.090028845908241,0.17725598255434946,-0.3502994249883771,0.5303571168048591,0.75,2,0,1
+legacy70k,ACC,"0,1,2",full_trace_single_matching_environment_both_methods,True,3,0.011428571428577044,0.1798014778264396,-0.4352230602685223,0.4580802031256765,0.75,2,0,1
+paper70k,ARI,"6,7,8,9",full_trace_single_matching_environment_both_methods,True,4,0.007996021202609505,0.36108120022393675,-0.5665647445774276,0.5825567869826466,1.0,1,0,3
+paper70k,NMI,"6,7,8,9",full_trace_single_matching_environment_both_methods,True,4,0.08058045977667738,0.1785755441267929,-0.20357308053349255,0.3647340000868473,1.0,1,0,3
+paper70k,ACC,"6,7,8,9",full_trace_single_matching_environment_both_methods,True,4,-0.07071428571428229,0.6303465195381606,-1.0737362617906139,0.9323076903620494,0.875,1,0,3

@@ -1,0 +1,18 @@
+{
+  "schema": 2,
+  "identity": "9fbd45dce6dfa9814da659389c65906be49638c86315ac6b7ae4bd7604404354:6:ada_im",
+  "current": {
+    "file": "checkpoint_A.pt",
+    "sha256": "603ff4e478ae387ff43bbdad77fa9fbc333d013c97ab6b147fea7aad3672c38c",
+    "next_epoch": 100,
+    "next_batch": 0,
+    "saved_at": "2026-11-13T16:10:38.766821+00:00"
+  },
+  "previous": {
+    "file": "checkpoint_B.pt",
+    "sha256": "92a4cefeb0efec749361249a40c77034fa99e40b297fd6c771ecba3997f11ce1",
+    "next_epoch": 99,
+    "next_batch": 0,
+    "saved_at": "2026-11-13T16:10:30.277467+00:00"
+  }
+}
